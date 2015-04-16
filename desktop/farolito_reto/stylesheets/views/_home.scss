@@ -1,0 +1,191 @@
+/*COMIENZA RETO*/
+/*Home*/
+body, .container-fluid {
+	font-family: 'Lato', sans-serif;
+	width: 100%;
+	height: 100%;
+}
+
+.row{
+	padding: 0px;
+	margin: 0px;
+}
+
+.container-fluid{
+	padding: 0px;
+
+}
+/*menu*/
+nav.navbar.navbar-default {
+  height: 4em;
+  }
+.navbar-default .navbar-nav > li > a{
+	color: #ABAAAA;
+}
+
+nav .navbar-nav li a{
+	font-size: 20px;
+}
+.navbar-default{
+	background-color:transparent;
+	border-color: transparent;
+	padding-left: 0px;
+}
+
+.dropdown {
+	border: 1.5px solid rgb(179, 179, 179);
+    border-radius: 15px;
+/*    padding-left: 2px;
+    padding-right: 2px;*/
+}
+.container-fluid > .navbar-header{
+	margin-right: 0px;
+  margin-left: 0px; 
+}
+.navbar-nav > li  {
+	padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.btn{
+	background-color: rgb(160, 160, 160);
+	color: white;
+	border-radius: 15px;
+	font-family: 'Lato', sans-serif;
+	 /* padding-left: 20px;
+  	padding-right: 20px;*/
+}
+/*a.dropdown-toggle{
+	padding:2px;
+}*/
+/*fin de menu*/
+.homepage{
+	background: url(../img/img-home.png) no-repeat center center scroll;
+	/*display: table;*/
+	
+	height: 100%;
+	background-size: cover;
+}
+.homepage img {
+	width: 100%;
+}
+
+.text-principal{
+	padding: 0 9%;
+	/*padding-left:0px; 
+   	padding-right: 0px;*/
+}
+
+.logo{
+	width: 40%;
+	margin: 0 auto;
+	/*margin-top: 70px;*/
+	margin-bottom: 30px;
+}
+
+.lema{
+	font-size: 25px;
+	color: #4ABAE1;
+	font-family:'Lato', sans-serif;
+
+}
+.descripcion {
+	font-size: 18px;
+	color:rgb(176, 174, 174);
+}
+	
+.btn2{
+	text-decoration: none;
+	border:1px solid #F7714F;
+	border-radius: 15px;
+	background-color:#F7714F;
+	color:white;
+	/*margin: 0 auto;*/
+}
+
+.btn2 a {
+	color:yellow;
+
+}
+.slide{
+	position: relative;
+	bottom: 28px;
+}
+/*metodologia*/
+.subtitulos{
+	color:#4ABAE1;
+	font-size: 35px;
+	margin-bottom:50px;
+}
+
+.metodologia p{
+	color:rgb(247, 105, 73);
+	font-size: 27px;
+}
+
+.metodologia h5{
+	color: rgb(176, 174, 174);
+	font-size: 27px;
+}
+
+.comilla-izquierda{
+	left: 320px;
+}
+.comilla-derecha {
+	/*padding-right: 20%;*/
+	padding-top: 5%;
+	right: 232px;
+  position: relative
+}
+/*pilares*/
+.circulo-pilar{
+	background-color: red;
+	width: 320px;
+	height: 320px;
+	border-radius: 50%;
+	padding:1rem;
+}
+.pilares{
+	border-radius: 50%;
+	border:2px dashed white;
+	width: 300px;
+	height: 300px;
+	padding: 1rem
+}
+
+.pilares p{
+
+	color:white;
+  padding: 26px 10px;
+  font-size: 22px;
+}
+
+.pilar-1{
+	margin-top:35px;
+}
+.pilar-1 h3{
+	color:rgb(247, 105, 73);
+
+}
+.pilar-1 span{
+	color:rgb(176, 174, 174);
+}
+
+.pilar-3 h3{
+	color:rgb(247, 105, 73);
+}
+.pilar-3{
+	color:rgb(176, 174, 174);
+}
+
+.line-izquierda{
+	width: 156px;
+	height: 130px;
+	border-bottom:2px dashed red;
+	transform:rotate(-15deg);
+  	left: 130px;
+  	/*top: 66px;*/
+  	position: relative;
+
+}
+/*fin del Home*/
