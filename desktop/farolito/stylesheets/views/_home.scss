@@ -7,10 +7,7 @@
 	font-family:MuseoSans;
 	src:url(../Fuente/TitularesNeutratext/MuseoSans.otf);
 }
-
 @font-face{
-
-
 	font-family:NeutraTextsub;
 	src:url(../Fuente/TitularesNeutratext/NeutraTextsub.otf);
 }
@@ -19,6 +16,7 @@
 	font-family:NeutraTextlightt;
 	src:url(../Fuente/TitularesNeutratext/NeutraTextlightt.otf);
 }
+
 html, head, body{
 	width: 100%;
 }
@@ -29,10 +27,6 @@ body{
 		margin: 0px;
 	}
 }
-
-// h2, h4, h5{
-// 	font-family: "NeutraTextsub", sans-serif;
-// }
 
 h1, h3, nav, .boton-perfil, p{
 	font-family: "MuseoSans", sans-serif;
@@ -56,77 +50,59 @@ font-family:"NeutraTextlightt", sans-serif;
 	margin: 0px;
 	padding: 0px;
 }
-
-// [class*="col-"] {
-// 	padding: 0px;
-// 	margin: 0px;
-// }
-
-
+// comienzo del home
 .nav-home{
 	margin:0px;
 }
-
 .navbar-default .navbar-nav > li > a{
 	color: #ABAAAA;
 }
-
 nav .navbar-nav li a{
 	font-size: 20px;
 }
+
 .navbar-default{
 	background-color:transparent;
 	border-color: transparent;
 	padding-left: 0px;
-}
-.navbar-right {
-	margin-right:0px;
-	padding-top:5px;
-}
-.nav-home-boton{
-	margin-top:7px;
-}
+	.navbar-right {
+		margin-right:0px;
+		padding-top:5px;
+	}
+	.nav-home-boton{
+		margin-top:7px;
+	}
+	.nav > li > a {
+		padding: 0px;
 
-.nav > li > a {
-	padding: 0px;
+	}
+	.nav > li.link-oportunidad > a{
+  	border-left: 1px solid #9E9D9D;
+	  padding-left: 15px;
+	}
+	.nav-lista ul li {
+		padding:10px;
+	}
+	.navbar-nav > li > a {
+	  padding-top: 0px; 
+	  padding-bottom: 0px;
+	}
 
-}
-
-.nav > li.link-oportunidad > a{
-	  border-left: 1px solid #9E9D9D;
-  padding-left: 15px;
-}
-
-.border-idioma{
-	border:1px solid gray;
-	border-radius:12px;
-	padding:15px;
-}
-
-.nav-lista ul li {
-	padding:10px;
-}
-
-.navbar-nav > li > a {
-  padding-top: 0px; 
-  padding-bottom: 0px;
-}
-
-.container-fluid > .navbar-header{
-	margin-right: 0px;
-  margin-left: 0px; 
-}
-.navbar-nav > li  {
-	padding-top: 0px;
-    padding-bottom: 0px;
-}
-
-.boton-home{
-  background-color: #aaa;
-  border: transparent;
-  border-radius: 12px;
-  color: white;
-  padding: 4px 16px;
+	.container-fluid > .navbar-header{
+		margin-right: 0px;
+	  margin-left: 0px; 
+	}
+	.navbar-nav > li  {
+		padding-top: 0px;
+	    padding-bottom: 0px;
+	}
+	.boton-home{
+	  background-color: #aaa;
+	  border: transparent;
+	  border-radius: 12px;
+	  color: white;
+	  padding: 4px 16px;
+	}
 }
 
 /*fin de menu*/
@@ -259,13 +235,16 @@ nav .navbar-nav li a{
 .pilar-1{
 	margin-top:35px;
 }
-.pilar-1 h3{
+.pilar-1 h3,
+.pilar-2 h3{
 	color:rgb(247, 105, 73);
 
 }
-.pilar-1 span{
+.pilar-1 span, 
+.pilar-2 span{
 	color:rgb(176, 174, 174);
 }
+
 
 .line-pilar-vertical{
 	border-top: 3px dashed #FF6A49;
