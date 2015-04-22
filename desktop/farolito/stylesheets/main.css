@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*========================================
 =            Bootstrap                   =
 ========================================*/
@@ -5523,7 +5524,7 @@ button.close {
 ========================================*/
 @font-face {
   font-family: NeutraTextlight;
-  src: url(../Fuente/Cuerpodetexto/NeutraTextlight.otf); }
+  src: url(../Fuente/TitularesNeutratext/NeutraTextlight.otf); }
 @font-face {
   font-family: MuseoSans;
   src: url(../Fuente/TitularesNeutratext/MuseoSans.otf); }
@@ -5548,6 +5549,9 @@ h2, h3 {
 
 span, p, h5 {
   font-family: "NeutraTextlightt", sans-serif; }
+
+h4 {
+  font-family: "NeutraTextlight", sans-serif; }
 
 .col-md-1-5 {
   position: relative;
@@ -5653,7 +5657,7 @@ nav .navbar-nav li a {
 
 .arrow-homepage {
   position: relative;
-  top: 120px;
+  top: 140px;
   margin: 0 auto; }
   .arrow-homepage img {
     border-radius: 50%;
@@ -5685,7 +5689,7 @@ nav .navbar-nav li a {
   line-height: 12px; }
 
 .comilla-izquierda {
-  left: 304px;
+  left: 250px;
   top: -18; }
 
 .comilla-izquierda img {
@@ -5693,7 +5697,7 @@ nav .navbar-nav li a {
 
 .comilla-derecha {
   padding-top: 42px;
-  right: 209px;
+  right: 152px;
   position: relative; }
 
 .comilla-derecha img {
@@ -5781,96 +5785,104 @@ nav .navbar-nav li a {
   left: -12px;
   position: relative; }
 
-/*Fin de home page*/
+.boton-metodlogia {
+  background-color: #58C6E7;
+  color: #fff;
+  width: 65%;
+  margin: 0 auto;
+  border: #fff;
+  border-radius: 19px;
+  font-size: 19px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-top: 50px; }
+
+.boton-naranja {
+  background-color: #2bb7e1;
+  color: #fff;
+  width: 65%;
+  margin: 0 auto;
+  border: #fff;
+  border-radius: 19px;
+  font-size: 19px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-top: 50px;
+  width: 22%;
+  position: relative;
+  top: 60px;
+  border: 2px solid white; }
+
+.arrow-homepage-metodolo {
+  position: relative;
+  top: 30px;
+  margin: 0 auto; }
+  .arrow-homepage-metodolo img {
+    border-radius: 50%;
+    width: 5%; }
+
+/*Fin de metodolog├¡a*/
 /*farolito.postulantes*/
+.postulante-perfil {
+  padding-bottom: 100px; }
+
+.oportunidad-perfil {
+  padding-bottom: 100px; }
+
 .farolito-postulantes {
   background-image: url(../img/img-02.png);
   display: table;
-  height: 800px;
+  height: 1130px;
   width: 100%;
-  background-size: cover;
-  /*position: relative;*/ }
+  background-size: cover; }
+  .farolito-postulantes h2 {
+    color: white;
+    padding-top: 62px;
+    font-size: 40px; }
+  .farolito-postulantes p {
+    font-size: 30px;
+    color: white;
+    padding-top: 14px;
+    padding-bottom: 44px; }
+  .farolito-postulantes span {
+    color: white;
+    font-size: 22px; }
 
-.iconos-postulantes1 h4 {
-  float: left;
-  border-bottom: 1px dashed white;
-  width: 60%;
-  margin-top: 46px; }
+.number-one-metodologia img {
+  width: 28%;
+  left: 78px;
+  position: relative;
+  top: 12px; }
 
-.iconos-postulantes1 {
-  left: 90px;
-  margin-top: 32px;
-  z-index: 10; }
-
-.iconos-postulantes1 img {
-  margin-top: 18px; }
-
-.iconos-postulantes h4 {
-  float: left;
-  border-bottom: 1px dashed white;
-  width: 60%; }
-
-.iconos-postulantes {
-  left: 90px;
-  margin-top: 31px;
-  z-index: 10; }
-
-.iconos-postulantes img {
-  margin-top: 31px; }
-
-.farolito-postulantes img {
-  width: 30%; }
-
-.farolito-postulantes h2 {
+.perfil-postulante h4, .oportunidad-postulante h4 {
   color: white;
-  font-size: 35px;
-  margin-top: 70px; }
+  font-size: 34px; }
 
-.farolito-postulantes h4 {
-  color: white;
-  font-size: 25px;
-  line-height: 30px;
-  padding-bottom: 8px; }
+.img-postulantes img {
+  width: 82%; }
 
-.farolito-postulantes p {
-  color: white;
-  font-size: 16px;
-  padding: 14px;
-  padding-top: 70px; }
+.line-postulante-horizontal {
+  border: 1px dashed white;
+  width: 24%;
+  position: relative;
+  left: 234px;
+  top: 67px; }
 
-.parrafo-postulante {
-  padding-left: 49px;
-  padding-right: 25%;
-  padding-top: 15px; }
+.line-postulante-vertical {
+  border: 1px dashed white;
+  width: 70%;
+  left: 24px;
+  position: relative;
+  top: 54px;
+  -webkit-transform: rotate(90deg); }
 
-.group-postulantes {
-  padding: 30px; }
+.text-left {
+  padding-top: 13px; }
 
-.iconos-post {
-  margin-left: 112%;
-  margin-top: 15px;
-  width: 15%; }
-
-img.iconos-post {
-  width: 17%;
-  padding-top: 32px; }
-
-.line-post {
-  border-bottom: 1px dashed white;
-  /*width: 300px;*/
-  -webkit-transform: rotate(90deg);
-  z-index: 9; }
-
-.btn5 {
-  padding-top: 20px; }
-
-.btn5 a {
-  border: 2px solid white;
-  border-radius: 12px;
-  padding: 10px 40px;
-  color: white;
-  background-color: #58C6E7;
-  font-weight: bold; }
+.oportunidad-postulante h4 {
+  top: -73px;
+  position: relative;
+  left: 30px; }
 
 /*termino de farolito postulantes*/
 /*comienza faralito para empresas*/
@@ -6177,6 +6189,18 @@ input[type="submit"] {
   margin-top: 20px; }
 
 /*fin del formulario*/
+.button {
+  background-color: #aaa;
+  color: white;
+  width: 65%;
+  margin: 0 auto;
+  border: red;
+  border-radius: 19px;
+  font-size: 19px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-top: 50px; }
+
 @media screen and (max-width: 480px) {
   .homepage {
     background-image: url(none);
