@@ -5543,6 +5543,12 @@ body > .container-fluid {
 h1, h3, nav, .boton-perfil, p {
   font-family: "MuseoSans", sans-serif; }
 
+h2 {
+  font-family: "NeutraTextsub", sans-serif; }
+
+p, h5 {
+  font-family: "NeutraTextlightt", sans-serif; }
+
 .col-md-1-5 {
   position: relative;
   min-height: 1px;
@@ -5670,24 +5676,37 @@ nav .navbar-nav li a {
 /*metodologia*/
 .subtitulos {
   color: #4ABAE1;
-  font-size: 35px;
-  margin-bottom: 50px; }
+  font-size: 40px;
+  margin-bottom: 50px;
+  margin-top: 8%; }
 
 .metodologia p {
   color: #f76949;
-  font-size: 27px; }
+  font-size: 32px;
+  font-weight: bold; }
 
 .metodologia h5 {
-  color: #b0aeae;
-  font-size: 27px; }
+  color: #797878;
+  font-size: 32px;
+  font-weight: bold; }
+
+.metodo-intro {
+  line-height: 12px; }
 
 .comilla-izquierda {
-  left: 320px; }
+  left: 247px;
+  top: -18; }
+
+.comilla-izquierda img {
+  width: 52%; }
 
 .comilla-derecha {
-  padding-top: 5%;
-  right: 232px;
+  padding-top: 4%;
+  right: 150px;
   position: relative; }
+
+.comilla-derecha img {
+  width: 52%; }
 
 /*pilares*/
 .circulo-externo {
