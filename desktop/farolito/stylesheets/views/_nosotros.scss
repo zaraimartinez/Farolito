@@ -1,0 +1,141 @@
+/*<!-- comienzo sobre nosotros -->*/
+.container-fluid{
+	margin-left: 0 auto;
+}
+.container{
+	margin: 0 auto;
+}
+.navbar-nosotros{
+	background-color: rgb(242, 249, 247);
+	margin-bottom: 0px;
+	height: 0px;
+}
+
+.sobre-nosotros{
+	background-image: url(../img/img_nosotros-02.png);
+	min-height: 480px;
+	background-size: cover;
+ 	padding-left: 0px; 
+  padding-right: 0px; 
+}
+
+.logo-nosotros img{
+	width: 100%;
+}
+
+.logo-nosotros{
+  width:8%;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.boton-salir{
+	margin-bottom: 0px;
+	margin-top: 0px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+button.btn-6 {
+  padding: 3px 30px;
+  border-radius: 10px;
+  border: transparent;
+  background-color: rgb(163, 163, 163);
+  color: white;
+}
+
+.slide{
+	top:-27px;
+}
+
+.intro-nosotros{
+	color: white;
+}
+.profile-nosotros img{
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  padding: 4px;
+  border: 2px solid gray;
+}
+
+.profile-nosotros h4{
+	color: #58C6E7;
+	font-weight: bold;
+	font-size: 28px;
+}
+
+.profile-nosotros span{
+	color:gray;
+	font-weight: bold;
+	font-size: 16px;
+}
+.profile-nosotros p{
+	color:gray;
+	  padding: 19px 41px;
+  font-size: 16px;
+}
+
+.line{
+  border: 1px dashed gray;
+  width: 85%;
+  margin: 0 auto;
+}
+.lema-nosotros{
+	background-color: #FF6A49;
+	color: white;
+}
+.slide img {
+  border-radius: 50%;
+  width: 5%;
+  top: 56px;
+  position: relative;
+}
+
+.line-2{
+	width: 60%;
+	margin: 0 auto;
+	border: 1px dashed white;
+}
+.citas {
+	padding:15px;
+}
+
+.nosotros-logo-lema img{
+  margin-top: 90px;
+  margin-bottom: 30px;
+  width: 20%;
+}
+
+.citas h4{
+	font-size: 30px;
+}
+/*.citas p{
+  font-size: 17px;
+  padding-top: 50px;
+  padding-bottom: 20px;
+}*/
+.nosotros-logo-lema p {
+	  padding-top: 35px;
+  font-size: 17px;
+}
+
+.slide-2{
+	position: relative;
+	/*top:195px;*/
+	/*width: 5px;*/
+	margin: 0 auto;
+}
+
+.slide-2 img{
+	border-radius: 50%;
+	width: 5%;
+	top:30px;
+}
+/*  border-top: 1px dashed white;
+  border-bottom: 1px dashed white;
+  padding: 20px;*/
+
+/*.profile-fundadores{
+	padding: 30px 70px;
+}*/
