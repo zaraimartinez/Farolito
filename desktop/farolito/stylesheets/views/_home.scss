@@ -358,6 +358,7 @@ nav .navbar-nav li a{
 
 .oportunidad-perfil{
 	padding-bottom:100px;
+
 }
 .farolito-postulantes{
 	background-image: url(../img/img-02.png);
@@ -381,7 +382,7 @@ nav .navbar-nav li a{
 			font-size: 22px;
 		}
 }
-.number-one-metodologia img{
+.number-one-postulantes img{
 	width:28%;
   left: 78px;
   position: relative;
@@ -419,6 +420,44 @@ nav .navbar-nav li a{
   top: -73px;
   position: relative;
   left: 30px;
+}
+.arrow-homepage-postulantes{
+	position: relative;
+	top:128px;
+	margin: 0 auto;
+	img{
+		border-radius: 50%;
+		width: 5%;
+	}
+}
+.number-two-postulantes img{
+	width:28%;
+  position: relative;
+  left: 78px;
+  top: -60px;
+}
+
+
+.oportunidad-postulante-2 h4{
+  top: -90px;
+  position: relative;
+  left: 30px;
+  color:white;
+	font-size:34px;
+}
+
+.oportunidad-postulante-3 h4{
+  top: -58px;
+  position: relative;
+  left: 30px;
+  color:white;
+	font-size:34px;
+}
+.number-tree-postulantes img{
+	width:28%;
+  position: relative;
+  left: 78px;
+  top: -32px;
 }
 // .iconos-postulantes1 h4{
 // 	float: left;
