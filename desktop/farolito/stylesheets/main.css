@@ -5547,7 +5547,7 @@ h1, nav, .boton-perfil, p {
 h2, h3 {
   font-family: "NeutraTextsub", sans-serif; }
 
-span, p, h5 {
+span, p, h5, li {
   font-family: "NeutraTextlightt", sans-serif; }
 
 h4 {
@@ -5611,8 +5611,8 @@ nav .navbar-nav li a {
 /*fin de menu*/
 .homepage {
   background-image: url(../img/img-home.png);
-  background-size: 100%;
   display: table;
+  height: 643px;
   /*width: 100%;*/
   background-size: cover; }
 
@@ -5925,7 +5925,6 @@ nav .navbar-nav li a {
   left: 78px;
   top: -32px; }
 
-/*termino de farolito postulantes*/
 /*comienza faralito para empresas*/
 .farolito-empresas h2 {
   color: #FF6A49;
@@ -5945,7 +5944,7 @@ nav .navbar-nav li a {
 .farolito-empresas p {
   color: #9E9D9D;
   font-size: 20px;
-  padding: 14px; }
+  padding-top: 20px; }
 
 .p-empresas p {
   padding-left: 0px;
@@ -5999,29 +5998,27 @@ nav .navbar-nav li a {
   border-bottom: 1px dashed white;
   width: 40%;
   margin: 0 auto;
-  line-height: 78px; }
+  padding-bottom: 20px;
+  padding-top: 20px;
+  font-weight: bold; }
 
 .farolito-educativas p {
   color: white;
-  font-size: 16px;
+  font-size: 20px;
   padding: 14px; }
 
 .p-educativas p {
   padding-left: 0px;
-  padding-right: 0px; }
-
-.educativas {
-  padding: 7px 97px 20px 81px; }
-
-.fa-educativas {
-  padding: 37px; }
+  padding-right: 0px;
+  font-size: 20px; }
 
 .fa-educativas img {
   width: 22%; }
 
 .fa-educativas h5 {
   color: white;
-  font-size: 25px; }
+  font-size: 28px;
+  font-weight: bold; }
 
 .fa-educativas span {
   color: #58C6E7;
@@ -6058,22 +6055,24 @@ nav .navbar-nav li a {
   margin-bottom: 16px;
   margin-top: 108px;
   text-align: center;
-  color: #a2a2a2;
+  color: #9E9D9D;
   font-size: 35px; }
 
 .lista-oportunidades h5 {
   color: #11CAE9;
   border-bottom: 1px solid #11CAE9;
-  width: 52%;
+  width: 70%;
   font-size: 20px;
-  line-height: 25px; }
+  line-height: 25px;
+  font-weight: bold; }
 
 .lista-oportunidades-2 h5 {
   color: #11CAE9;
   border-bottom: 1px solid #11CAE9;
-  width: 80%;
+  width: 92%;
   font-size: 20px;
-  line-height: 25px; }
+  line-height: 25px;
+  font-weight: bold; }
 
 .lista-oportunidades-2 ul {
   list-style: none;
@@ -6096,8 +6095,8 @@ h5 .line-oportunidad {
 .btn-ver-mas {
   border: 2px solid #FF6A49;
   border-radius: 12px;
-  width: 100px;
-  left: 200px;
+  width: 22%;
+  left: 150px;
   top: -13px;
   text-align: center; }
 
@@ -6130,12 +6129,12 @@ h5 .line-oportunidad {
 .blog h2 {
   text-align: center;
   font-size: 35px;
-  color: gray; }
+  color: #9E9D9D;
+  margin-top: 95px; }
 
 .comentario {
-  background-color: #dddfde;
-  height: 250px;
-  padding: 57px 30px 10px 10px;
+  background-color: #F3F3F3;
+  padding: 48px 30px 21px 10px;
   -webkit-transition: all 0.4s ease-in-out;
   -moz-transition: all 0.4s ease-in-out;
   -o-transition: all 0.4s ease-in-out;
@@ -6143,7 +6142,7 @@ h5 .line-oportunidad {
 
 .comentario p {
   color: #a8a6a6;
-  font-size: 19px; }
+  font-size: 21px; }
 
 .comentario p:hover {
   color: white;
@@ -6166,8 +6165,13 @@ h5 .line-oportunidad {
 .boton-ver-todos2 .btn {
   background-color: #23bef4;
   color: white;
-  width: 20%;
-  margin-top: 20px; }
+  width: 21%;
+  margin-top: 22px;
+  border-radius: 18px;
+  padding-bottom: 10px;
+  padding-top: 12px;
+  font-size: 19px;
+  font-weight: bold; }
 
 /*formulario*/
 .formulario {

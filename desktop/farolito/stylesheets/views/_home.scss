@@ -51,7 +51,7 @@ h1, nav, .boton-perfil, p{
 h2, h3{
 		font-family: "NeutraTextsub", sans-serif;
 }
-span, p, h5,{
+span, p, h5, li{
 font-family:"NeutraTextlightt", sans-serif;
 }
 
@@ -126,9 +126,9 @@ nav .navbar-nav li a{
 /*fin de menu*/
 .homepage{
 	background-image: url(../img/img-home.png);
-	background-size:100%;
+	// background-size:100%;
 	display: table;
-	// height: 643px;
+	height: 643px;
 	/*width: 100%;*/
 	background-size: cover;
 }
@@ -453,7 +453,7 @@ nav .navbar-nav li a{
   position: relative;
   left: 30px;
   color:white;
-	font-size:34px;
+  font-size:34px;
 }
 
 .oportunidad-postulante-3 h4{
@@ -469,101 +469,7 @@ nav .navbar-nav li a{
   left: 78px;
   top: -32px;
 }
-// .iconos-postulantes1 h4{
-// 	float: left;
-// 	border-bottom: 1px dashed white;
-// 	width: 60%;
-// 	margin-top: 46px;
-// }
-
-// .iconos-postulantes1{
-// 	left: 90px;
-// 	margin-top: 32px;
-// 	z-index: 10;
-// }
-
-// .iconos-postulantes1 img{
-// 	margin-top: 18px;
-// }
-
-// .iconos-postulantes h4{
-// 	float: left;
-// 	border-bottom: 1px dashed white;
-// 	width: 60%;
-	
-// }
-
-// .iconos-postulantes{
-// 	left: 90px;
-// 	margin-top: 31px;
-// 	z-index: 10;
-// }
-
-// .iconos-postulantes img{
-// 	margin-top: 31px;
-// }
-
-// .farolito-postulantes img {
-// 	width: 30%;
-// }
-
-// .farolito-postulantes h2{
-// 	color: white;
-// 	font-size: 35px;
-// 	margin-top: 70px;
-// }
-// .farolito-postulantes h4{
-// 	color:white;
-// 	font-size: 25px;
-// 	line-height: 30px;
-// 	padding-bottom: 8px;
-
-// }
-// .farolito-postulantes p{
-// 	color:white;
-// 	font-size: 16px;
-// 	padding: 14px;
-// 	padding-top: 70px;
-
-// }
-// .parrafo-postulante{
-// 	padding-left: 49px;
-// 	padding-right: 25%;
-// 	padding-top: 15px;
-// }
-
-// .group-postulantes{
-// 	padding: 30px;
-// }
-
-// .iconos-post{
-// 	margin-left: 112%;
-// 	margin-top: 15px;
-// 	width: 15%;
-// }
-// img.iconos-post {
-//   width: 17%;
-//   padding-top: 32px;
-// }
-
-// .line-post {
-// 	border-bottom: 1px dashed white;
-// 	/*width: 300px;*/
-// 	-webkit-transform: rotate(90deg);
-// 	z-index: 9;
-// }
-// .btn5{
-// 	padding-top: 20px;
-// }
-// .btn5 a{
-// 	border:2px solid white;
-// 	border-radius: 12px;
-// 	padding: 10px 40px;
-// 	color: white;
-// 	background-color:#58C6E7;
-// 	font-weight: bold; 
-// }
-/*termino de farolito postulantes*/
+// termino de farolito postulantes
 
 /*comienza faralito para empresas*/
 .farolito-empresas h2{
@@ -586,7 +492,8 @@ nav .navbar-nav li a{
 .farolito-empresas p{
 	color:#9E9D9D;
 	font-size: 20px;
-	padding: 14px;
+	// padding: 14px;
+	padding-top:20px;
 
 }
 .p-empresas p{
@@ -632,7 +539,7 @@ nav .navbar-nav li a{
   background-color: #ff4016;
   border-color: #f12c00;
 }
-
+// farolito educativas
 .farolito-educativas{
 	background-color:#77d248;
 	
@@ -649,31 +556,31 @@ nav .navbar-nav li a{
 	border-bottom: 1px dashed white;
 	width: 40%;
 	margin: 0 auto;
-	line-height: 78px;
+	// line-height: 78px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    font-weight: bold;
 }
 .farolito-educativas p{
 	color:white;
-	font-size: 16px;
+	font-size: 20px;
 	padding: 14px;
 
 }
 .p-educativas p{
 	padding-left: 0px;
 	padding-right: 0px;
+	font-size:20px;
 }
-.educativas{
-	padding: 7px 97px 20px 81px;
-}
-.fa-educativas{
-	padding: 37px;
-}
+
 .fa-educativas img {
 	width: 22%;
 }
 
 .fa-educativas h5{
 	color:white;
-	font-size: 25px;
+	font-size: 28px;
+	font-weight:bold;
 }
 
 .fa-educativas span {
@@ -715,7 +622,7 @@ nav .navbar-nav li a{
 	margin-bottom: 16px;
 	margin-top: 108px;
 	text-align: center;
-	color: rgb(162, 162, 162);
+	color: #9E9D9D;
 	font-size: 35px;
 
 }
@@ -723,16 +630,18 @@ nav .navbar-nav li a{
 .lista-oportunidades h5 {
 	color:#11CAE9;
 	border-bottom: 1px solid #11CAE9;
-	width: 52%;
+	width: 70%;
 	font-size: 20px;
 	line-height: 25px;
+	font-weight:bold;
 }
 .lista-oportunidades-2 h5{
 	color:#11CAE9;
 	border-bottom: 1px solid #11CAE9;
-	width:80%;
+	width:92%;
 	font-size: 20px;
 	line-height: 25px;
+	font-weight:bold;
 }
 .lista-oportunidades-2 ul {
 	list-style: none;
@@ -757,8 +666,8 @@ h5 .line-oportunidad  {
 .btn-ver-mas{
 	border:2px solid #FF6A49;
 	border-radius: 12px;
-	width: 100px;
-	left: 200px;
+	width: 22%;
+	left: 150px;
 	top: -13px;
 	text-align: center;
 	
@@ -796,13 +705,14 @@ h5 .line-oportunidad  {
 .blog h2{
 	text-align: center;
 	font-size: 35px;
-	color: gray;
+	color: #9E9D9D;
+	margin-top: 95px;
 
 }
 .comentario{
-	background-color: rgb(221, 223, 222);
-	height: 250px;
-	padding: 57px 30px 10px 10px;
+	background-color: #F3F3F3;
+	// height: 250px;
+	padding: 48px 30px 21px 10px;
 	-webkit-transition: all 0.4s ease-in-out;
 	-moz-transition: all 0.4s ease-in-out;
 	-o-transition: all 0.4s ease-in-out;
@@ -811,7 +721,7 @@ h5 .line-oportunidad  {
 
 .comentario p{
 	color:rgb(168, 166, 166);
-	font-size: 19px;
+	font-size: 21px;
 
 }
 .comentario p:hover{
@@ -835,10 +745,15 @@ h5 .line-oportunidad  {
 }
 
 .boton-ver-todos2 .btn{
-	background-color: rgb(35, 190, 244);
-	color: white;
-	width: 20%;
-	margin-top: 20px;
+  background-color: #23bef4;
+  color: white;
+  width: 21%;
+  margin-top: 22px;
+  border-radius: 18px;
+  padding-bottom: 10px;
+  padding-top: 12px;
+  font-size: 19px;
+  font-weight: bold;
 }
 /*formulario*/
 .formulario {
