@@ -5547,7 +5547,7 @@ h1, nav, .boton-perfil, p {
 h2, h3 {
   font-family: "NeutraTextsub", sans-serif; }
 
-span, p, h5, li {
+span, p, h5, li input {
   font-family: "NeutraTextlightt", sans-serif; }
 
 h4 {
@@ -5566,6 +5566,21 @@ h4 {
 .row {
   margin: 0px;
   padding: 0px; }
+
+.navbar {
+  background: rgba(216, 199, 187, 0.9);
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
+  height: 62px;
+  transition: height 0.2s ease-in-out; }
+
+.navbar.on-scroll {
+  background-color: #E6DBD0;
+  height: 35px; }
+
+.nav.on-scroll li a {
+  font-size: 0.8em; }
 
 .nav-home {
   margin: 0px; }
@@ -5657,13 +5672,22 @@ nav .navbar-nav li a {
 
 .arrow-homepage {
   position: relative;
-  top: 140px;
+  top: 195px;
   margin: 0 auto; }
   .arrow-homepage img {
     border-radius: 50%;
     width: 5%; }
 
 /*metodologia*/
+.hover-metodologia img {
+  position: absolute;
+  top: 196px;
+  right: 143px;
+  width: 44%; }
+
+.hover-metodologia h2 {
+  color: gray; }
+
 .line-metodo {
   border: 1px dashed #f76949;
   width: 70%;
@@ -5689,7 +5713,7 @@ nav .navbar-nav li a {
   line-height: 12px; }
 
 .comilla-izquierda {
-  left: 250px;
+  left: 297px;
   top: -18; }
 
 .comilla-izquierda img {
@@ -5697,7 +5721,7 @@ nav .navbar-nav li a {
 
 .comilla-derecha {
   padding-top: 42px;
-  right: 152px;
+  right: 200px;
   position: relative; }
 
 .comilla-derecha img {
@@ -5712,6 +5736,9 @@ nav .navbar-nav li a {
   padding: 0.6rem;
   margin: 0 auto; }
 
+.circulo-externo:hover {
+  background-color: white; }
+
 .circulo-interno {
   border-radius: 50%;
   border: dashed 3px white;
@@ -5721,6 +5748,9 @@ nav .navbar-nav li a {
   margin: 0 auto;
   padding-top: 52px;
   /*-webkit-transform: scale(0.8);*/ }
+
+.circulo-interno:hover {
+  border: dashed 3px #FF6A49; }
 
 .circulo-interno p {
   color: white;
@@ -5984,6 +6014,14 @@ nav .navbar-nav li a {
   background-color: #ff4016;
   border-color: #f12c00; }
 
+.arrow-homepage-empresas {
+  position: relative;
+  top: 35px;
+  margin: 0 auto; }
+  .arrow-homepage-empresas img {
+    border-radius: 50%;
+    width: 5%; }
+
 .farolito-educativas {
   background-color: #77d248; }
 
@@ -6040,6 +6078,14 @@ nav .navbar-nav li a {
 .btn4 a:hover {
   color: white;
   border-color: white; }
+
+.arrow-homepage-educativas {
+  position: relative;
+  top: 35px;
+  margin: 0 auto; }
+  .arrow-homepage-educativas img {
+    border-radius: 50%;
+    width: 5%; }
 
 /*termino de faralito para empresas*/
 /*comienza lista de oportunidades*/
@@ -6124,9 +6170,26 @@ h5 .line-oportunidad {
   border-radius: 12px;
   bottom: 20px; }
 
+.arrow-homepage-lista {
+  position: relative;
+  top: 55px;
+  margin: 0 auto; }
+  .arrow-homepage-lista img {
+    border-radius: 50%;
+    width: 5%; }
+
 /*fin de lista de oportunidades*/
 /*comienza blog*/
+.correo {
+  background-color: #eeeeee; }
+
 .blog h2 {
+  text-align: center;
+  font-size: 35px;
+  color: #9E9D9D;
+  margin-top: 95px; }
+
+.correo h2 {
   text-align: center;
   font-size: 35px;
   color: #9E9D9D;
@@ -6181,9 +6244,16 @@ h5 .line-oportunidad {
   font-size: 19px;
   font-weight: bold; }
 
+.arrow-homepage-blog {
+  position: relative;
+  top: 32px;
+  margin: 0 auto; }
+  .arrow-homepage-blog img {
+    border-radius: 50%;
+    width: 5%; }
+
 /*formulario*/
 .formulario {
-  height: 396px;
   margin: 0 auto;
   text-align: center;
   padding: 20px; }
@@ -6196,57 +6266,83 @@ input {
 
 input[type="text"] {
   font-family: 'Ubuntu Condensed', sans-serif;
-  padding: 15px 55px;
+  padding: 6px 21px;
   background: white;
   border-radius: 2px;
   color: orange;
-  font-size: 20px;
+  font-size: 16px;
   margin-bottom: 15px;
-  width: 100%;
+  width: 72%;
   border-left: 0px;
   border-right: 0px;
   border-top: 0px;
   border-bottom: 0px;
-  border: 1px solid #0D8EDE; }
+  border: 1px solid #ccc; }
 
 ::-webkit-input-placeholder {
-  color: #0D8EDE; }
+  color: #9E9D9D; }
 
 ::-moz-placeholder {
-  color: #0D8EDE; }
+  color: #9E9D9D; }
 
 /* firefox 19+ */
 :-ms-input-placeholder {
-  color: #0D8EDE; }
+  color: #9E9D9D; }
 
 /* ie */
-input:-moz-placeholder {
-  color: #0D8EDE; }
+button:-moz-placeholder {
+  color: #9E9D9D; }
 
 textarea {
-  font-family: 'Ubuntu Condensed', sans-serif;
-  width: 100%;
+  width: 72%;
   height: 120px;
   background-color: 1px solid #0D8EDE;
   border-radius: 2px;
-  padding: 15px 55px;
+  padding: 7px 20px;
   /*font-family: arial;*/
-  font-size: 20px;
+  font-size: 16px;
   color: orange;
-  border: 1px solid #0D8EDE; }
+  border: 1px solid #ccc; }
 
-input[type="submit"] {
-  font-family: 'Ubuntu Condensed', sans-serif;
-  padding: 15px 55px;
-  background: #0D8EDE;
+.boton-correo {
+  background-color: gray;
   color: white;
-  font-size: 20px;
-  border-left: 0px;
-  border-right: 0px;
-  border-top: 0px;
-  margin-top: 20px; }
+  padding: 5px 27px;
+  border-radius: 8px;
+  float: right;
+  margin-right: 78px; }
+
+.telefono {
+  padding-bottom: 84px; }
+
+.telefono span {
+  left: 92px;
+  position: relative;
+  color: gray;
+  top: 20px;
+  font-size: 20px; }
 
 /*fin del formulario*/
+.footer {
+  position: relative;
+  background-color: #9E9D9D;
+  height: 56px; }
+
+.footer span {
+  color: white; }
+
+.footer-logo.clearfix {
+  position: relative;
+  top: -17px; }
+
+.footer-logo.clearfix {
+  position: relative;
+  top: -17px; }
+  .footer-logo.clearfix img {
+    border-radius: 50%;
+    width: 22%;
+    left: 12px; }
+
 .button {
   background-color: #aaa;
   color: white;
