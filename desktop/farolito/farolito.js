@@ -1,5 +1,5 @@
 
-$(document).ready(function){
+$(document).ready(function(){
 	$(".circulo-externo").hover(function(){
 		$(".home-metodologia").toggleClass("hidden");
 		$(".hover-metodologia").toggleClass("hidden");
@@ -15,7 +15,7 @@ $(document).ready(function){
   // });
 
   $(window).scroll(function() {
-  	var menu= $($(this).scrollTop();
+  	var menu= $(this).scrollTop();
     if (menu > 650){
     	$(".navbar").addClass("scroll")
     }

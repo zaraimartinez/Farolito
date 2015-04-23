@@ -11,6 +11,20 @@
 	height: 0px;
 }
 
+.intro-nosotros{
+  color: white;
+  padding-top:85px;
+	  h2{
+	  	font-size: 40px;
+	  	margin-bottom:40px;
+	  }
+	  h4{
+	  	margin-top:0px;
+	  	margin-bottom: 0px;
+	  	font-size: 24px;
+	  	line-height: 32px;
+	  }
+}
 .sobre-nosotros{
 	background-image: url(../img/img_nosotros-02.png);
 	min-height: 480px;
@@ -48,36 +62,44 @@ button.btn-6 {
 	top:-27px;
 }
 
-.intro-nosotros{
-	color: white;
-}
 .profile-nosotros img{
   border-radius: 50%;
   width: 150px;
   height: 150px;
   padding: 4px;
   border: 2px solid gray;
-}
 
-.profile-nosotros h4{
-	color: #58C6E7;
-	font-weight: bold;
-	font-size: 28px;
 }
+	.profile-nosotros h4{
+		color: #58C6E7;
+		font-weight: bold;
+		font-size: 27px;
+	}
+
 
 .profile-nosotros span{
 	color:gray;
 	font-weight: bold;
-	font-size: 16px;
+	font-size: 20px;
 }
 .profile-nosotros p{
-	color:gray;
-	  padding: 19px 41px;
-  font-size: 16px;
+	color:#8D8D8D;
+	padding: 19px 41px;
+  font-size:20px;
+  line-height: 24px;
+  margin-bottom: 46px;
+}
+
+.sobre-fundadores h2{
+	font-size:35px;
+	color:#9E9D9D;
+	margin-bottom: 68px;
+  margin-top: 68px;
+
 }
 
 .line{
-  border: 1px dashed gray;
+  border: 1px dashed #9E9D9D;
   width: 85%;
   margin: 0 auto;
 }
@@ -88,7 +110,7 @@ button.btn-6 {
 .slide img {
   border-radius: 50%;
   width: 5%;
-  top: 56px;
+  top: -24px;
   position: relative;
 }
 
@@ -110,19 +132,17 @@ button.btn-6 {
 .citas h4{
 	font-size: 30px;
 }
-/*.citas p{
-  font-size: 17px;
-  padding-top: 50px;
-  padding-bottom: 20px;
-}*/
+
 .nosotros-logo-lema p {
-	  padding-top: 35px;
+  padding-top: 35px;
   font-size: 17px;
+  font-size: 20px;
+  margin-bottom: 28%;
 }
 
 .slide-2{
 	position: relative;
-	/*top:195px;*/
+	top:35px;
 	/*width: 5px;*/
 	margin: 0 auto;
 }
@@ -132,10 +152,3 @@ button.btn-6 {
 	width: 5%;
 	top:30px;
 }
-/*  border-top: 1px dashed white;
-  border-bottom: 1px dashed white;
-  padding: 20px;*/
-
-/*.profile-fundadores{
-	padding: 30px 70px;
-}*/
