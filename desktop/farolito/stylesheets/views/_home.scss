@@ -711,20 +711,28 @@ h5 .line-oportunidad  {
 }
 .comentario{
 	background-color: #F3F3F3;
-	// height: 250px;
-	padding: 48px 30px 21px 10px;
+	padding:44px 10px;
 	-webkit-transition: all 0.4s ease-in-out;
 	-moz-transition: all 0.4s ease-in-out;
 	-o-transition: all 0.4s ease-in-out;
 	-ms-transition: all 0.4s ease-in-out; 
-}
 
-.comentario p{
+}
+.comentario-2{
+	background-color: #F3F3F3;
+	padding:44px 10px 16px;
+	-webkit-transition: all 0.4s ease-in-out;
+	-moz-transition: all 0.4s ease-in-out;
+	-o-transition: all 0.4s ease-in-out;
+	-ms-transition: all 0.4s ease-in-out; 
+	}
+
+.comentario p,.comentario-2 p{
 	color:rgb(168, 166, 166);
-	font-size: 21px;
+	font-size: 20px;
 
 }
-.comentario p:hover{
+.comentario p:hover,.comentario-2 p:hover {
 	color: white;
 	-webkit-transition: all 0.2s ease-in-out;
 	-moz-transition: all 0.2s ease-in-out;
@@ -734,7 +742,7 @@ h5 .line-oportunidad  {
 .blog-comentario{
 	padding: 20px;
 }
-.comentario:hover{
+.comentario:hover,.comentario-2:hover{
 	background-color: #ffd13f;
 	color: orange;
 }
