@@ -16,10 +16,10 @@ $(document).ready(function(){
 
   $(window).scroll(function() {
   	var menu= $(this).scrollTop();
-    if (menu > 650){
+    if (menu > 500){
     	$(".navbar").addClass("scroll")
     }
-    	else if(menu < 650){
+    	else if(menu < 500){
     		$(".navbar").removeClass("scroll");
 
     	}

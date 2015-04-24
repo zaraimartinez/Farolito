@@ -71,24 +71,17 @@ h4{
 // comienzo del home
 // menu
 .navbar {
-	background: rgba(216, 199, 187, 0.9);
-	position: fixed;
-	width: 100%;
-	z-index: 1000;
-	height: 62px;
-	transition: height 0.2s ease-in-out;
+	background-color: transparent;
+	transition: 0.5s ease-in-out;
 }
 
-.navbar.on-scroll {
-	background-color:#E6DBD0;
-	height: 35px;
+.navbar.scroll {
+	background-color:rgb(240, 251, 253);
+	position:fixed;
+	width:100%;
+	z-index: 10;
+
 }
-
-.nav.on-scroll li a {
-	font-size: 0.8em;
-}
-
-
 
 
 // termino
@@ -201,7 +194,7 @@ nav .navbar-nav li a{
 
 .arrow-homepage{
 	position: relative;
-	top:195px;
+	top:152px;
 	margin: 0 auto;
 	img{
 		border-radius: 50%;
