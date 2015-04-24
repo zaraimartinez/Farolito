@@ -1,9 +1,22 @@
+  $(window).scroll(function() {
+  	var menu= $(this).scrollTop();
+    if (menu > 500){
+    	$(".navbar").addClass("scroll");
+      $(".logo-nav").addClass("scroll");
+
+    }
+    	else if(menu < 500){
+    		$(".navbar").removeClass("scroll");
+        $(".logo-nav").removeClass("scroll");
+    	}
+    });
+
 
 $(document).ready(function(){
-	$(".circulo-externo").hover(function(){
-		$(".home-metodologia").toggleClass("hidden");
-		$(".hover-metodologia").toggleClass("hidden");
-	});
+  $(".circulo-externo").hover(function(){
+    $(".home-metodologia").toggleClass("hidden");
+    $(".hover-metodologia").toggleClass("hidden");
+  });
 });
 
   // $(window).scroll(function() {
@@ -13,14 +26,3 @@ $(document).ready(function(){
   //     $(".navbar").removeClass('on-scroll');
   //   }
   // });
-
-  $(window).scroll(function() {
-  	var menu= $(this).scrollTop();
-    if (menu > 500){
-    	$(".navbar").addClass("scroll")
-    }
-    	else if(menu < 500){
-    		$(".navbar").removeClass("scroll");
-
-    	}
-    });

@@ -9,8 +9,30 @@
 	background-color: rgb(242, 249, 247);
 	margin-bottom: 0px;
 	height: 0px;
+	position:fixed;
+	width:100%;
+	z-index:10;
 }
-
+// .nav li a{
+//    right: 49px;
+//   	top: 7px;
+// }
+.nav-nosotros{
+	background-color:red;
+}
+.logo-nav-nosotros{
+  width: 45%;
+  margin: 0 auto;
+  display: block;
+  // margin-top: 7px;
+  // padding: 20px;
+}
+ul .nav-sobrenosotros li a{
+	padding:7px 27px;
+}
+.vacantes a{
+  border-left: 2px solid gray;
+}
 .intro-nosotros{
   color: white;
   padding-top:85px;
@@ -56,6 +78,7 @@ button.btn-6 {
   border: transparent;
   background-color: rgb(163, 163, 163);
   color: white;
+  // margin-top: 4px;
 }
 
 .slide{

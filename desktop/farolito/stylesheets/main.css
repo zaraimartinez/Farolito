@@ -5577,6 +5577,16 @@ h4 {
   width: 100%;
   z-index: 10; }
 
+.logo-nav {
+  width: 45%;
+  margin: 0 auto;
+  display: block;
+  margin-top: 7px;
+  visibility: hidden; }
+
+.logo-nav.scroll {
+  visibility: visible; }
+
 .nav-home {
   margin: 0px; }
 
@@ -5663,13 +5673,16 @@ nav .navbar-nav li a {
 .boton-perfil:hover {
   color: #fff;
   background-color: #ff4016;
-  border-color: #f12c00; }
+  border-color: #f12c00;
+  text-decoration: none;
+  transition: 0.5s ease-in-out; }
 
 .arrow-homepage {
   position: relative;
   top: 152px;
   margin: 0 auto; }
   .arrow-homepage img {
+    transition: 0.8s ease-in-out;
     border-radius: 50%;
     width: 5%; }
 
@@ -5814,6 +5827,10 @@ nav .navbar-nav li a {
   left: -12px;
   position: relative; }
 
+.boton-metodlogia:hover {
+  background-color: #42bee4;
+  transition: 0.5s ease-in-out; }
+
 .boton-metodlogia {
   background-color: #58C6E7;
   color: #fff;
@@ -5824,7 +5841,10 @@ nav .navbar-nav li a {
   font-size: 19px;
   padding-top: 15px;
   padding-bottom: 15px;
-  margin-top: 50px; }
+  margin-top: 50px;
+  width: 62%;
+  position: relative;
+  border: 2px solid #42bee4; }
 
 .boton-naranja {
   background-color: #2bb7e1;
@@ -5841,6 +5861,41 @@ nav .navbar-nav li a {
   position: relative;
   top: 60px;
   border: 2px solid white; }
+
+.btn3 {
+  background-color: #F7714F;
+  color: #fff;
+  width: 65%;
+  margin: 0 auto;
+  border: #fff;
+  border-radius: 19px;
+  font-size: 19px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-top: 50px;
+  padding-left: 55px;
+  padding-right: 55px;
+  top: 60px;
+  border: 2px solid #FF6A49;
+  text-decoration: none; }
+
+.btn4 {
+  background-color: #77d248;
+  color: #fff;
+  width: 65%;
+  margin: 0 auto;
+  border: #fff;
+  border-radius: 19px;
+  font-size: 19px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-top: 50px;
+  text-decoration: none;
+  border: 2px solid white;
+  padding-left: 55px;
+  padding-right: 55px;
+  margin: 12px 0px 80px;
+  font-weight: bold; }
 
 .arrow-homepage-metodolo {
   position: relative;
@@ -5954,6 +6009,10 @@ nav .navbar-nav li a {
   left: 78px;
   top: -32px; }
 
+.boton-naranja:hover {
+  border: 2px solid #1b8a8a;
+  transition: 0.5s ease-in-out; }
+
 /*comienza faralito para empresas*/
 .farolito-empresas h2 {
   color: #FF6A49;
@@ -5996,22 +6055,12 @@ nav .navbar-nav li a {
   font-size: 20px;
   font-weight: bold; }
 
-.btn3 {
-  padding: 10px 53px;
-  text-decoration: none;
-  border: 1px solid #FF6A49;
-  border-radius: 15px;
-  background-color: #F7714F;
-  color: white;
-  display: inline-block;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  margin: 0px 0px 80px; }
-
 .btn3:hover {
   color: #fff;
   background-color: #ff4016;
-  border-color: #f12c00; }
+  border-color: #f12c00;
+  text-decoration: none;
+  transition: 0.5s ease-in-out; }
 
 .arrow-homepage-empresas {
   position: relative;
@@ -6020,6 +6069,9 @@ nav .navbar-nav li a {
   .arrow-homepage-empresas img {
     border-radius: 50%;
     width: 5%; }
+
+.educativas {
+  margin-bottom: 50px; }
 
 .farolito-educativas {
   background-color: #77d248; }
@@ -6062,21 +6114,12 @@ nav .navbar-nav li a {
   font-size: 20px;
   font-weight: bold; }
 
-.btn4 {
-  padding: 10px 54px;
+.btn4:hover {
+  color: #77d248;
+  background-color: white;
+  border-color: white;
   text-decoration: none;
-  border: 2px solid white;
-  border-radius: 15px;
-  color: white;
-  display: inline-block;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  margin: 0px 0px 80px;
-  font-weight: bold; }
-
-.btn4 a:hover {
-  color: white;
-  border-color: white; }
+  transition: 0.5s ease-in-out; }
 
 .arrow-homepage-educativas {
   position: relative;
@@ -6150,6 +6193,10 @@ h5 .line-oportunidad {
   font-weight: bold;
   padding: 3px 12px; }
 
+.btn-ver-mas:hover {
+  background-color: #FBE7E2;
+  transition: 0.5s ease-in-out; }
+
 .line-separator {
   border-bottom: dotted;
   width: 100%;
@@ -6167,7 +6214,9 @@ h5 .line-oportunidad {
   background-color: #9E9D9D;
   border: 2px solid #9E9D9D;
   border-radius: 12px;
-  bottom: 20px; }
+  bottom: 20px;
+  margin: 0 auto;
+  display: block; }
 
 .arrow-homepage-lista {
   position: relative;
@@ -6298,18 +6347,23 @@ textarea {
   background-color: 1px solid #0D8EDE;
   border-radius: 2px;
   padding: 7px 20px;
-  /*font-family: arial;*/
   font-size: 16px;
-  color: orange;
+  color: #42bee4;
   border: 1px solid #ccc; }
 
 .boton-correo {
-  background-color: gray;
+  background-color: #9e9d9d;
   color: white;
   padding: 5px 27px;
   border-radius: 8px;
   float: right;
-  margin-right: 78px; }
+  margin-right: 90px; }
+
+.boton-correo:hover {
+  color: #58C6E7; }
+
+a.boton-correo {
+  text-decoration: none; }
 
 .telefono {
   padding-bottom: 84px; }
@@ -6318,7 +6372,7 @@ textarea {
   left: 92px;
   position: relative;
   color: gray;
-  top: 20px;
+  top: 55px;
   font-size: 20px; }
 
 /*fin del formulario*/
@@ -6371,8 +6425,39 @@ textarea {
   .navbar {
     float: left; }
 
+  .img-media {
+    width: 100%;
+    background-size: cover; }
+
   .inicio-home {
-    padding: 0px; } }
+    padding: 0px; }
+
+  .logo img {
+    width: 60%;
+    padding-top: 16px;
+    padding-bottom: 20px; }
+
+  .lema h1 {
+    font-weight: bold;
+    line-height: 37px; }
+
+  .descripcion p {
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 27px; }
+
+  .farolito-empresas h2 {
+    font-size: 40px; }
+
+  .farolito-empresas h4 {
+    width: 100%; }
+
+  .pilares {
+    padding-top: 0px; }
+
+  .subtitulos {
+    margin-top: 32px;
+    margin-bottom: 0px; } }
 /*<!-- comienzo sobre nosotros -->*/
 .container-fluid {
   margin-left: 0 auto; }
@@ -6383,7 +6468,24 @@ textarea {
 .navbar-nosotros {
   background-color: #f2f9f7;
   margin-bottom: 0px;
-  height: 0px; }
+  height: 0px;
+  position: fixed;
+  width: 100%;
+  z-index: 10; }
+
+.nav-nosotros {
+  background-color: red; }
+
+.logo-nav-nosotros {
+  width: 45%;
+  margin: 0 auto;
+  display: block; }
+
+ul .nav-sobrenosotros li a {
+  padding: 7px 27px; }
+
+.vacantes a {
+  border-left: 2px solid gray; }
 
 .intro-nosotros {
   color: white;

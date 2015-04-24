@@ -3,16 +3,21 @@
 	<head>
 		<title>Farolito</title>
 		<meta charset="utf-8">
+		<link rel="icon" type="image/png" href="iconos/iconos-20-1.png">
 		<link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
 		<link rel="stylesheet" type="text/css" href="stylesheets/main.css">
 	</head>
 	<body>
-	
 		<div class="container-fluid">
 			<div class="homepage">
 				<nav class="navbar navbar-default nav-home">
 			    <div class="navbar-header">
+			    	
+			    		<a href="">
+			    			<img src="iconos/iconos-20-1.png" class="logo-nav">
+			    		</a>
+			    	
 			      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
 			        <span class="sr-only">Toggle navigation</span>
 			        <span class="icon-bar"></span>
@@ -22,7 +27,7 @@
 			    </div>
 			    <div class="collapse navbar-collapse nav-lista" id="bs-example-navbar-collapse-1">
 			      <ul class="nav navbar-nav navbar-right">
-			        <li><a href="#">Sobre nosotros</a></li>
+			        <li><a href="nosotros.html">Sobre nosotros</a></li>
 			        <li class="link-oportunidad"><a href="#">Oportunidades</a></li>
 			        <li class="dropdown">
 			          <a href="#" class="dropdown-toggle btn-dropdown borde-idioma" data-toggle="dropdown" role="button" aria-expanded="false">Es <span class="caret"></span></a>
@@ -49,22 +54,23 @@
 								<h1>Identificamos al mejor talento y maximizamos su potencial</h1>
 							</div>
 							<div class="descripcion">
-								<p>Con una evaluación rigurosa, tanto de postulantes como de puestos laborales, identificamos lasinergia óptima entre trabajador y empresa, aumentando la productividad, la permanencia y la felicidad de los trabajadores</p>
+								<p class="hidden-xs">Con una evaluación rigurosa, tanto de postulantes como de puestos laborales, identificamos la sinergia óptima entre trabajador y empresa, aumentando la productividad, la permanencia y la felicidad de los trabajadores</p>
+								<p class="hidden-sm hidden-md hidden-lg">Con una evaluación rigurosa, identificamos la sinergia óptima entre trabajador y empresa, aumentando la productividad, la permanencia y la felicidad de los trabajadores.</p>
 							</div>
 						</div>
-							<img class="hidden-sm hidden-md hidden-lg"src="img/img-05.jpg">
+							<img class=" img-media hidden-sm hidden-md hidden-lg"src="img/img-05.jpg">
 				   	 	<a href=""class="boton-perfil">CREA TU PERFIL</a>
 					</div>
 				</div>
 				<div class="arrow-homepage text-center hidden-xs">
-					<a href="">
+					<a href="#metodologia">
 						<img src="iconos/iconos-15.png">
 					</a>
 				</div>	
 			</div>
 		<!-- termina HOME -->
 		<!-- metodología -->
-				<div class="metodologia text-center">
+				<div id="metodologia"class="metodologia text-center">
 					<h2 class="subtitulos">Nuestra metodología</h2>
 					
 					<div class="row ">
@@ -76,7 +82,7 @@
 							<h5 class="hidden-xs">que el proceso interno aplicado por nuestros clientes.</h5>
 						</div>	
 						<div class="col-sm-1 hidden-xs comilla-derecha">
-							<img src="iconos/iconos-18.png">
+							<a href="#metodologia"><img asrc="iconos/iconos-18.png"></a>
 						</div>
 					</div>
 					<div class="row pilares">
@@ -120,7 +126,7 @@
 						</div>
 					</div>
 				<div class="arrow-homepage-metodolo text-center hidden-xs">
-					<a href="">
+					<a href="#postulantes">
 						<img src="iconos/iconos-15.png">
 					</a>
 				</div>
@@ -128,7 +134,7 @@
 				<!-- termino de Metodología -->
 
 				<!-- farolito para Postulantes -->
-			<div class="farolito-postulantes text-center">
+			<div id="postulantes" class="farolito-postulantes text-center">
 				<div class="container">
 						<h2>Farolito para Postulantes</h2>
 						<p>Alcansa tu potencial profesional con Farolito</p>
@@ -186,14 +192,14 @@
 				</div>
 					<div class="boton-naranja hidden-xs">VER OPORTUNIDADES</div>
 					<div class="arrow-homepage-postulantes text-center hidden-xs">
-						<a href="">
+						<a href="#empresas">
 							<img src="iconos/iconos-15.png">
 						</a>
 					</div>
 			</div>	
 		
 		<!-- comienza farolito para empresas-->
-		<div class="container farolito-empresas  text-center">
+		<div id="empresas" class="container farolito-empresas  text-center">
 			<h2>Farolito para empresas</h2>
 			<h4>Contrata al mejor talento</h4>
 			<div class="line4"></div>
@@ -223,14 +229,14 @@
 			</div>
 			<a href=""class="btn3">CONTÁCTANOS</a>
 				<div class="arrow-homepage-empresas text-center hidden-xs">
-						<a href="">
+						<a href="#educativos">
 							<img src="iconos/iconos-15.png">
 						</a>
 					</div>
 		</div>
 		<!-- termino de farolito para empresas -->
 		<!-- comienza farolito para centros educativos -->
-		<div class="farolito-educativas">
+		<div id="educativos" class="farolito-educativas">
 		<div class="container text-center">
 			<h2>Farolito para Centros Educativos</h2>
 			<h4>Desarrolla el mejor talento</h4>
@@ -261,7 +267,7 @@
 			</div>
 			<a href=""class="btn4">CONTÁCTANOS</a>
 				<div class="arrow-homepage-educativas text-center hidden-xs">
-						<a href="">
+						<a href="#oportunidades">
 							<img src="iconos/iconos-15.png">
 						</a>
 					</div>
@@ -269,7 +275,7 @@
 		</div>
 		<!-- termino farolito para centros educativos -->
 			<!-- comienza lista de oportunidades -->
-		<div class="back-img hidden-xs">
+		<div id="oportunidades" class="oportunidades back-img hidden-xs">
 			<div class="container">
 					<div class="row">
 						<div class="col-md-3"></div>
@@ -336,7 +342,7 @@
 						</div>
 						</div>
 						<div class="arrow-homepage-lista text-center hidden-xs">
-						<a href="">
+						<a href="#blog">
 							<img src="iconos/iconos-15.png">
 						</a>
 					</div>
@@ -344,7 +350,7 @@
 					</div>
 		<!-- termina lista de oportunidades -->
 		<!-- comienzo del blog -->
-			<div class="blog">
+			<div id="blog"class="blog">
 				<div class="container">
 						<h2>Blog farolito</h2>
 							<div class="row">
@@ -379,7 +385,7 @@
 						<a href=""class="btn">VER TODOS</a>
 					</div>
 						<div class="arrow-homepage-blog text-center hidden-xs">
-						<a href="">
+						<a href="#correo">
 							<img src="iconos/iconos-15.png">
 						</a>
 					</div>
@@ -389,7 +395,7 @@
 			<!-- </div> -->
 				<!-- termino del blog -->
 				<!-- comienzo de correo -->
-				<div class="correo text-left">
+				<div id="correo"class="correo text-left">
 					<div class="container">
 						<h2>¿tienes alguna consulta?</h2>
 						<div class="row">
