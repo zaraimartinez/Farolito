@@ -12,36 +12,50 @@
 		<div class="container-fluid">
 			<div class="homepage">
 				<nav class="navbar navbar-default nav-home">
-			    <div class="navbar-header">
-			    	
-			    		<a href="">
-			    			<img src="iconos/iconos-20-1.png" class="logo-nav">
-			    		</a>
-			    	
-			      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-			        <span class="sr-only">Toggle navigation</span>
-			        <span class="icon-bar"></span>
-			        <span class="icon-bar"></span>
-			        <span class="icon-bar"></span>
-			      </button>
-			    </div>
-			    <div class="collapse navbar-collapse nav-lista" id="bs-example-navbar-collapse-1">
-			      <ul class="nav navbar-nav navbar-right">
-			        <li><a href="nosotros.html">Sobre nosotros</a></li>
-			        <li class="link-oportunidad"><a href="#">Oportunidades</a></li>
-			        <li class="dropdown">
-			          <a href="#" class="dropdown-toggle btn-dropdown borde-idioma" data-toggle="dropdown" role="button" aria-expanded="false">Es <span class="caret"></span></a>
-			          <ul class="dropdown-menu" role="menu">
-			            <li><a href="#">Ingles</a></li>
-			            <li class="divider"></li>
-			            <li><a href="#">Frances</a></li>
-			          </ul>
-			        </li>
-			      <form class="navbar-form navbar-left nav-home-boton" role="search">
-			        <button type="submit" class=" btn-default boton-home">INGRESAR</button>
-			      </form>
-			      </ul>
-			    </div>
+					<div class="navbar-header">
+						<a href="">
+							<img src="iconos/iconos-20-1.png" class="logo-nav">
+						</a>
+						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						</button>
+					</div>
+					<div class="collapse navbar-collapse nav-lista" id="bs-example-navbar-collapse-1">
+						<ul class="nav navbar-nav navbar-right">
+							<li><a href="nosotros.html">Sobre nosotros</a></li>
+							<li class="link-oportunidad"><a href="#oportunidades">Oportunidades</a></li>
+							<li class="dropdown">
+								<a href="#" class="dropdown-toggle btn-dropdown borde-idioma" data-toggle="dropdown" role="button" aria-expanded="false">Es <span class="caret"></span></a>
+								<ul class="dropdown-menu" role="menu">
+									<li><a href="#">Ingles</a></li>
+									<li class="divider"></li>
+									<li><a href="#">Frances</a></li>
+								</ul>
+							</li>
+							<form class="navbar-form navbar-left nav-home-boton" role="search">
+								<button type="submit" class=" btn-default boton-home" data-toggle="modal" data-target=".bs-example-modal-lg">INGRESAR</button>
+									<div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+  									<div class="modal-dialog modal-lg">
+									    <div class="modal-content">
+									    	<div class="contactanos tex-center">
+									    		<h2>Ingresa tu cuenta</h2>
+									      	<input type="text" nombre="nombres" placeholder="Usuario">
+													<input type="text" nombre="e-mail" placeholder="Contraseña">
+									    	</div>
+									    	<button type="submit" class=" botonpop btn-default boton-home" data-toggle="modal" data-target=".bs-example-modal-md">INGRESAR</button>
+									    	<div class="preguntas">
+													<p>¿Olvidaste tu contraseña?<br></p>
+													<p>¿No estás resgistrado? creo tu cuenta aquí</p>
+										 		</div>
+									    </div>
+							  		</div>
+									</div>
+							</form>
+						</ul>
+					</div>
 				</nav>
 				<div class="row">
 					<div class="col-sm-6 mt-63"></div>
@@ -58,15 +72,15 @@
 								<p class="hidden-sm hidden-md hidden-lg">Con una evaluación rigurosa, identificamos la sinergia óptima entre trabajador y empresa, aumentando la productividad, la permanencia y la felicidad de los trabajadores.</p>
 							</div>
 						</div>
-							<img class=" img-media hidden-sm hidden-md hidden-lg"src="img/img-05.jpg">
-				   	 	<a href=""class="boton-perfil">CREA TU PERFIL</a>
+						<img class=" img-media hidden-sm hidden-md hidden-lg"src="img/img-05.jpg">
+						<a href=""class="boton-perfil">CREA TU PERFIL</a>
 					</div>
 				</div>
 				<div class="arrow-homepage text-center hidden-xs">
 					<a href="#metodologia">
 						<img src="iconos/iconos-15.png">
 					</a>
-				</div>	
+				</div>
 			</div>
 		<!-- termina HOME -->
 		<!-- metodología -->
@@ -113,7 +127,7 @@
 							<div class="line-pilar-vertical hidden-xs"></div>
 							<div class="pilar-2">
 								<h3>Análisis continuo</h3>
-								<span>Actualización continua de perfil óptimo para cada puesto, que permita incorporar cambios en la economía laboral u operaciones internas que impactenel día al día.</span>
+								<span>Actualización continua de perfil óptimo para cada puesto, que permita incorporar cambios en la economía laboral u operaciones internas que impacte en el día al día.</span>
 								<div class="boton-metodlogia hidden-xs">VER MÁS</div>
 							
 							</div>
@@ -137,22 +151,24 @@
 			<div id="postulantes" class="farolito-postulantes text-center">
 				<div class="container">
 						<h2>Farolito para Postulantes</h2>
-						<p>Alcansa tu potencial profesional con Farolito</p>
+						<p class="hidden-xs">Alcansa tu potencial profesional con Farolito</p>
 						<div class="row postulante-perfil">
 							<div class="col-sm-2 number-one-postulantes">
 								<img src="iconos/numeros-39.png">
 							</div>
 							<div class="col-sm-3 perfil-postulante">
-								<h4>Crea tu perfil</h4>
+								<h4 class="hidden-xs">Crea tu perfil</h4>
 								<!-- <div class="line-postulante-horizontal"></div> -->
 							</div>
 							<div class="col-sm-2 img-postulantes">
 								<img src="iconos/iconos-09-1.png">
+								<h4  class="perfil hidden-sm hidden-md hidden-lg">Crea tu perfil</h4>
+									<div class="hidden-sm hidden-md hidden-lg line-perfil"></div>
 								<div class="line-postulante-vertical hidden-xs"></div>
 							</div>
 								<div class="line-postulante-horizontal-1 hidden-xs"></div>
 							<div class="col-sm-3 text-left">
-								<span>ingresa tus datos en nuestra página y forma parte de nuesta comunidad.</span>
+								<span class="ingresa-page">ingresa tus datos en nuestra página y forma parte de nuesta comunidad.</span>
 							</div>
 						</div>
 						<div class="row oportunidad-perfil">
@@ -160,7 +176,7 @@
 								<img src="iconos/numeros-37.png">
 							</div>
 							<div class="col-sm-3 oportunidad-postulante-2 text-left">
-								<h4>Postula a oportunidades laborales</h4>
+								<h4 class="hidden-xs">Postula a oportunidades laborales</h4>
 								<!-- <div class="line-postulante-horizontal"></div> -->
 							</div>
 							<div class="col-sm-2 img-postulantes">
@@ -237,7 +253,7 @@
 		<!-- termino de farolito para empresas -->
 		<!-- comienza farolito para centros educativos -->
 		<div id="educativos" class="farolito-educativas">
-		<div class="container text-center">
+		<div class="container educativos text-center">
 			<h2>Farolito para Centros Educativos</h2>
 			<h4>Desarrolla el mejor talento</h4>
 			<div class="line4"></div>
@@ -351,7 +367,7 @@
 		<!-- termina lista de oportunidades -->
 		<!-- comienzo del blog -->
 			<div id="blog"class="blog">
-				<div class="container">
+				<div class="container blog-2">
 						<h2>Blog farolito</h2>
 							<div class="row">
 								<div class="col-md-1-5"></div>
@@ -438,7 +454,6 @@
 
 
 	</div>
-
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 		<!-- Javascripts de Bootstrap -->
 		<script src="javascripts/b3/dropdown.js"></script>
@@ -446,7 +461,22 @@
 		<script src="javascripts/bootstrap/js/bootstrap.min.js"></script>
 		<script src="javascripts/b3/transition.js"></script>
 		<script src="farolito.js"></script>
-
+		<script>
+			$(function() {
+			  $('a[href*=#]:not([href=#])').click(function() {
+			    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+			      var target = $(this.hash);
+			      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+			      if (target.length) {
+			        $('html,body').animate({
+			          scrollTop: target.offset().top
+			        }, 1000);
+			        return false;
+			      }
+			    }
+			  });
+			});
+		</script>
 	</body>	
 </html>	
 

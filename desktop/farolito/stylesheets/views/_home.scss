@@ -72,7 +72,7 @@ h4{
 // menu
 .navbar {
 	background-color: transparent;
-	transition: 0.5s ease-in-out;
+	transition: 0.8s ease-in-out;
 }
 
 .navbar.scroll {
@@ -1006,7 +1006,31 @@ a.boton-correo{
 	@include button-vol(#aaa , white, red);
 
 }
-
+.modal-content{
+  border: 5px solid rgb(188, 187, 187);
+  border-radius: 46px;
+}
+.contactanos{
+	text-align:center;
+}
+.preguntas {
+  margin-left: 86px;
+}
+.preguntas p{
+	color:rgb(203, 203, 203);
+	font-size:18px;
+}
+button.botonpop.btn-default.boton-home{
+ background-color:rgb(32, 195, 229);
+}
+.botonpop{
+  margin-left: 410px;
+ 
+  }
+.contactanos h2{
+	color:rgb(32, 195, 229);
+	text-align:center;
+}
 @media screen and (max-width: $screen-phone){
 	.homepage{
 		background-image: url(none);
@@ -1065,4 +1089,125 @@ a.boton-correo{
  		margin-top:32px;
  		margin-bottom: 0px; 
  	}
+ 	.pilar-1{
+ 		padding:0px 25px;
+ 		padding-bottom:34px;
+ 	}
+ 	.pilar-2{
+ 		padding-bottom:32px;
+ 	}
+ 	.pilar-2 h3{
+ 			margin-top: 30px;
+ 			padding-bottom:9px;
+ 	}
+ 	.pilar-3{
+ 		padding-top:10px;
+ 		padding-bottom: 38px;
+ 	}
+ 	.number-one-postulantes img{
+ 		left:0px;
+ 		width: 15%;
+ 		padding-bottom: 82px;
+ 		top:50px;
+ 	}
+ 	.img-postulantes{
+ 		position:relative;
+ 		// top:-13px;
+ 	}
+ 	.img-postulantes img {
+  	width: 26%;
+  	top:-54px;
+  }
+  .perfil{
+  	color: white;
+  	font-size: 32px;
+  	padding-bottom: 2px;
+  }
+  .line-perfil{
+  	border:1px dashed white;
+  }
+  .text-left {
+	  text-align:center;
+	}
+	.ingresa-page{
+	  position: relative;
+  	top: -14px;
+	}
+	.number-two-postulantes img{
+ 		left:0px;
+ 		width: 15%;
+ 		padding-bottom: 0px;
+ 		top:-118px;
+ 	}
+ 	.postulante-perfil{
+ 		padding-bottom:94px;
+ 	}
+ 	.img-postulantes{
+ 		position: relative;
+  	top: -58px;
+ 	}
+ 	.telefono span {
+  	left:0px;
+  }
+  .fa-empresas {
+	 padding: 18px; 
+	 top: 36px;
+   padding-bottom: 12px;
+	}
+  .fa-empresas img {
+  	width: 36%;
+	}
+	.fa-empresas h5{
+		color:#FF6A49;
+	}
+	div#empresas{
+		  padding-bottom: 150px;
+	}
+	a.btn3{
+		position:relative;
+		top:78px;
+	}
+	.fa-educativas{
+		padding-left:0px;
+		padding-right:0px;
+	}
+	.farolito-educativas h4{
+		width: 100%;
+	}
+	.fa-educativas img {
+  	width: 36%;
+	}
+	.educativos{
+		padding-bottom: 67px;
+	}
+	.boton-ver-todos2 .btn{
+		width: 50%;
+	}
+	.blog-2{
+	  padding-bottom: 46px;
+	}
+	input[type="text"]{
+		width: 100%;
+	}
+	textarea{
+		width: 100%;
+	}
+	.boton-correo{
+	  padding: 13px 81px;
+	  float:center;
+    margin-right: 0px
+	}
+
+	.footer-logo.clearfix img{
+		width: 10%;
+	}
+	.footer-logo.clearfix{
+		text-align: center;
+	}
+	.footer-drchs-reservados{
+		text-align: center;
+	}
+	.intro-nosotros h4{
+		line-height: 28px;
+	}
 }

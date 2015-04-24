@@ -5569,7 +5569,7 @@ h4 {
 
 .navbar {
   background-color: transparent;
-  transition: 0.8s ease-in-out; }
+  transition: 0.5s ease-in-out; }
 
 .navbar.scroll {
   background-color: #f0fbfd;
@@ -6408,30 +6408,6 @@ a.boton-correo {
   padding-bottom: 15px;
   margin-top: 50px; }
 
-.modal-content {
-  border: 5px solid #bcbbbb;
-  border-radius: 46px; }
-
-.contactanos {
-  text-align: center; }
-
-.preguntas {
-  margin-left: 86px; }
-
-.preguntas p {
-  color: #cbcbcb;
-  font-size: 18px; }
-
-button.botonpop.btn-default.boton-home {
-  background-color: #20c3e5; }
-
-.botonpop {
-  margin-left: 410px; }
-
-.contactanos h2 {
-  color: #20c3e5;
-  text-align: center; }
-
 @media screen and (max-width: 480px) {
   .homepage {
     background-image: url(none);
@@ -6751,4 +6727,4 @@ button.btn-6 {
   width: 5%;
   top: 30px; }
 
-/*# sourceMappingURL=main.css.map */
+/*# sourceMappingURL=main.cs.map */
