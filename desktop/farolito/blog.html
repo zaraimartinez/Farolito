@@ -56,6 +56,42 @@
 							<p>Espero que les guste la información que se presenta aquí. Porfavor, escribenos, ponga sus comentarios, visite nuestro sitio Facebook y unirse a la Comunidad Farolito. Estamos aquí para ayudar.
 							</p>
 							<p>¡Le esperamos!</p>
+							<button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bs-example-modal-lg">FACEBOOK</button>
+							<div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+							  <div class="modal-dialog modal-lg">
+							    <div class="modal-content blogger-content">
+							    	<li>
+											<select>
+												<option>En su biografía</option>
+												<option>En biografía de amigos</option>
+												<option>En grupo</option>
+												<option>En una página</option>
+												<option>Mensaje privado</option>
+											</select>
+										</li>
+										<input type="text" nombre="nombres" placeholder="Escribe tu mensaje aquí">
+										<div class="row">
+											<div class="col-sm-6">
+												<div class="img-blogr"><img src="img/img-blog.png"></div>
+											</div>
+											<div class="col-sm-6">
+												<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+												tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+												quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+												consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+												cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+												proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+											</div>
+										</div>
+										<select>
+												<option>Amigos</option>
+												<option>Público</option>
+												<option>Solo yo</option>
+											</select>
+											<button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bs-example-modal-lg">Cancelar</button>
+							    </div>
+							  </div>
+							</div>
 						</div>
 				</div>
 				<div class="col-md-3">
@@ -64,10 +100,10 @@
 					</div>
 					<div class="list-blog">
 						<ul>
-						  <li >Aprendizaje</li>
-						  <li >Avisos</li>
-						  <li >General</li>
-						  <li >tips & tricks</li>
+						  <a href=""><li >Aprendizaje</li></a>
+						  <a href=""><li >Avisos</li></a>
+						  <a href=""><li >General</li></a>
+						  <a href=""><li >tips & tricks</li></a>
 						</ul>
 					</div>
 					<div class="ultimos-articulos">
@@ -113,6 +149,7 @@
 		<script src="javascripts/b3/dropdown.js"></script>
 		<script src="javascripts/b3/collapse.js"></script>
 		<script src="javascripts/bootstrap.min.js"></script>
+		<script src="javascripts/bootstrap/js/bootstrap.min.js"></script>
 		<script src="javascripts/b3/transition.js"></script>
 	</body>	
 </html>	

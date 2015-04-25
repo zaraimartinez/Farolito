@@ -3,14 +3,14 @@
     if (menu > 500){
     	$(".navbar").addClass("scroll");
       $(".logo-nav").addClass("scroll");
-      $(".boton-perfil").addClass("scroll");
+      // $(".boton-perfil").addClass("scroll");
 
 
     }
     	else if(menu < 500){
     		$(".navbar").removeClass("scroll");
         $(".logo-nav").removeClass("scroll");
-         $(".boton-perfil").removeClass("scroll");
+         // $(".boton-perfil").removeClass("scroll");
 
     	}
     });

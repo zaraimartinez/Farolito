@@ -88,6 +88,9 @@ h4{
 // 	z-index: 10;
 // }
 
+select{
+	border-radius:10px;
+}
 .logo-nav{
   width: 45%;
   margin: 0 auto;
@@ -447,7 +450,7 @@ nav .navbar-nav li a{
 .farolito-postulantes{
 	background-image: url(../img/img-02.png);
 	display: table;
-	height: 1130px;
+	height: 990px;
 	width: 100%;
 	background-size: cover;
 		h2{
@@ -620,7 +623,7 @@ nav .navbar-nav li a{
 }
 .arrow-homepage-empresas{
 	position: relative;
-	top:35px;
+	top:100px;
 	margin: 0 auto;
 	img{
 		border-radius: 50%;
@@ -809,7 +812,7 @@ h5 .line-oportunidad  {
 }
 .arrow-homepage-lista{
 	position: relative;
-	top:55px;
+	top:112px;
 	margin: 0 auto;
 	img{
 		border-radius: 50%;
@@ -869,7 +872,11 @@ div#empresas{
 	-ms-transition: all 0.2s ease-in-out; 
 }
 .blog-comentario{
-	padding: 20px;
+	padding: 26px;
+}
+
+.col-md-3.blog-comentario{
+	padding:26px;
 }
 .comentario:hover,.comentario-2:hover{
 	background-color: #ffd13f;
@@ -975,21 +982,7 @@ a.boton-correo{
   color: gray;
   top: 55px;
   font-size: 20px;
-
 }
-// input[type="submit"] {
-// 	padding: 15px 55px;
-// 	background: #0D8EDE;
-// 	border-radius:12px;
-// 	color: white;
-// 	font-size: 20px;
-// 	border-left: 0px;
-// 	border-right: 0px;
-// 	border-top:  0px;
-// 	margin-top: 20px;
-// }
-
-
 
 /*fin del formulario*/
 // footer
@@ -997,7 +990,7 @@ a.boton-correo{
   position: relative;
   background-color: #9E9D9D;
   height: 56px;
-  // margin-top: 74px;
+  margin-top: 0px;
 }
 .footer span{
 	color:white;
@@ -1048,6 +1041,19 @@ button.botonpop.btn-default.boton-home{
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media screen and (max-width: $screen-phone){
 	.homepage{
 		background-image: url(none);
@@ -1078,10 +1084,7 @@ button.navbar-toggle.collapsed{
 nav.navbar.navbar-default.nav-home{
 	width:100%;
 }
-	// button.navbar-toggle.collapsed{
-	//   border: transparent;
- //  	background-color: transparent;
-	// }
+
 	.navbar{
 		float: left;
 	}
@@ -1106,14 +1109,10 @@ nav.navbar.navbar-default.nav-home{
   	visibility:hidden;
 	}
   .lema h1{
-	  // margin-left: 12px;
-	  // margin-right: 12px;
 	  font-weight: bold;
 	  line-height: 37px;
 	}
  	.descripcion p{
- 		// padding-left: 18px;
-	  // padding-right: 18px;
 	  font-weight: bold;
 	  font-size: 22px;
 	  line-height: 27px;
@@ -1288,7 +1287,7 @@ nav.navbar.navbar-default.nav-home{
 	}
 	.comentario{
 		background-color:transparent;
-		padding: 30px 10px;
+				padding: 30px 10px;
 		p{
 			text-align: center;
 		}
