@@ -80,8 +80,14 @@ h4{
 	position:fixed;
 	width:100%;
 	z-index: 10;
-
 }
+// .boton-perfil.scroll {
+// 	background-color:rgb(240, 251, 253);
+// 	position:fixed;
+// 	width:100%;
+// 	z-index: 10;
+// }
+
 .logo-nav{
   width: 45%;
   margin: 0 auto;
@@ -89,10 +95,16 @@ h4{
   margin-top: 7px;
   visibility: hidden;
 }
+.boton-perfil{
+	visibility:visible;
+}
 .logo-nav.scroll{
 	visibility:visible;
 }
 
+// .boton-perfil.scroll{
+// 	visibility:visible;
+// }
 // termino
 .nav-home{
 	margin:0px;
@@ -805,7 +817,9 @@ h5 .line-oportunidad  {
 	}
 }
 /*fin de lista de oportunidades*/
-
+div#empresas{
+	margin-bottom:64px;
+}
 /*comienza blog*/
 .correo{
 	background-color:#eeeeee;
@@ -1031,6 +1045,9 @@ button.botonpop.btn-default.boton-home{
 	color:rgb(32, 195, 229);
 	text-align:center;
 }
+
+
+
 @media screen and (max-width: $screen-phone){
 	.homepage{
 		background-image: url(none);
@@ -1044,12 +1061,34 @@ button.botonpop.btn-default.boton-home{
 	  padding: 7px;
 	  font-size: 12px;
 	  border-radius: 12px;
+    margin-top: 22px;
 	}
 
+button.navbar-toggle.collapsed{
+	position: relative;
+  top: -48px;
+  left: 20px;
+  background-color: transparent;
+  border: transparent;
+}
+	button.navbar-toggle {
+		float: none;
+	}
+
+nav.navbar.navbar-default.nav-home{
+	width:100%;
+}
+	// button.navbar-toggle.collapsed{
+	//   border: transparent;
+ //  	background-color: transparent;
+	// }
 	.navbar{
 		float: left;
 	}
 
+.navbar-header{
+	height:54px;
+}
 	.img-media{
 		width:100%;
 		background-size: cover;
@@ -1060,9 +1099,12 @@ button.botonpop.btn-default.boton-home{
 
 	.logo img {
   	width: 60%;
-  	padding-top: 16px;
+  	padding-top: 0px;
   	padding-bottom:20px;
   }
+  .logo-nav.scroll {
+  	visibility:hidden;
+	}
   .lema h1{
 	  // margin-left: 12px;
 	  // margin-right: 12px;
@@ -1102,43 +1144,96 @@ button.botonpop.btn-default.boton-home{
  	}
  	.pilar-3{
  		padding-top:10px;
- 		padding-bottom: 38px;
+ 		padding-bottom: 59px;
  	}
+ 	.number-one-postulantes{
+ 		  padding-top: 21px;
+ 	}
+	// .postulantes-1 img{
+ // 		top:-9px;
+ // 		position: relative;
+ // 	}
  	.number-one-postulantes img{
  		left:0px;
  		width: 15%;
- 		padding-bottom: 82px;
- 		top:50px;
+ 		  padding-bottom: 28px;
+ 		// padding-bottom: 82px;
+ 		// top:50px;
  	}
  	.img-postulantes{
- 		position:relative;
- 		// top:-13px;
+ margin-top: 88px;
+ 		
  	}
  	.img-postulantes img {
-  	width: 26%;
-  	top:-54px;
-  }
-  .perfil{
+  	width: 25%;
+  	  top: -35px;
+  position: relative;
+}
+  
+	.text-left{
+		text-align:center;
+		 position: relative;
+	  top: -60px;
+	  line-height: 25px;
+	}
+	.row.postulante-perfil{
+		padding-bottom:0px;
+	}
+	.number-two-postulantes img,.number-tree-postulantes img{
+		width: 15%;
+		left: 0px;
+		top:-5px;
+	}
+
+	.parrafo-2{
+		  top: -102px;
+	}
+
+	.oportunidad-postulante-2 h4{
+		left: 0px;
+		top:46px;
+		font-size: 32px;
+	}
+
+  .perfil,.postula-2{
   	color: white;
-  	font-size: 32px;
+  	font-size: 25px;
   	padding-bottom: 2px;
+  	margin-top: -28px;
+  	font-weight: bold;
   }
-  .line-perfil{
+  .line-perfil,.line-perfil-3{
   	border:1px dashed white;
   }
-  .text-left {
-	  text-align:center;
+
+  .parrafo-2 {
+  top: -63px;
 	}
-	.ingresa-page{
-	  position: relative;
-  	top: -14px;
+	.number-tree-postulantes{
+		top: -112px;
 	}
-	.number-two-postulantes img{
- 		left:0px;
- 		width: 15%;
- 		padding-bottom: 0px;
- 		top:-118px;
- 	}
+
+	.oportunidad-postulante-3 h4{
+		top:15px;	
+		left: 0px;
+		font-size: 25px;
+		font-weight: bold;
+		padding-bottom: 20px;
+	}
+	.img-postulantes-3 img{
+		top:-212px;
+		width: 25%;
+		position:relative;
+	}
+	.perfil-pparrafo-3 span{
+	top:-22px;
+	top: -69px;
+  position: relative;
+	}
+	.line4{
+		margin-bottom: 29px;
+	}
+
  	.postulante-perfil{
  		padding-bottom:94px;
  	}
@@ -1161,7 +1256,7 @@ button.botonpop.btn-default.boton-home{
 		color:#FF6A49;
 	}
 	div#empresas{
-		  padding-bottom: 150px;
+		  padding-bottom: 130px;
 	}
 	a.btn3{
 		position:relative;
@@ -1183,8 +1278,27 @@ button.botonpop.btn-default.boton-home{
 	.boton-ver-todos2 .btn{
 		width: 50%;
 	}
-	.blog-2{
+
+	.blog-comentario{
+		padding:12px;
+	}
+	.container.blog-2{
 	  padding-bottom: 46px;
+	  margin-bottom:78px;
+	}
+	.comentario{
+		background-color:transparent;
+		padding: 30px 10px;
+		p{
+			text-align: center;
+		}
+	}
+	.comentario-2{
+		background-color:transparent;
+		padding: 30px 10px;
+		 p{
+		 	text-align: center;
+		 }
 	}
 	input[type="text"]{
 		width: 100%;
