@@ -90,6 +90,13 @@ h4{
 
 select{
 	border-radius:10px;
+	color:#ABAAAA;
+  background-color: rgb(240, 251, 253);
+}
+.styleSelect {
+  background-color: rgb(240, 251, 253);
+  background: url("images/downArrow.png") no-repeat right #fff;
+  
 }
 .logo-nav{
   width: 45%;
@@ -227,6 +234,8 @@ nav .navbar-nav li a{
 		transition: 0.8s ease-in-out;
 		border-radius: 50%;
 		width: 5%;
+	  top: -6px;
+  	position: relative;
 	}
 }
 
@@ -253,8 +262,8 @@ nav .navbar-nav li a{
 .subtitulos{
 	color:#4ABAE1;
 	font-size: 40px;
-	margin-bottom:50px;
-	margin-top: 8%;
+	margin-bottom:73px;
+	margin-top: 7.5%;
 }
 
 .metodologia p{
@@ -276,7 +285,7 @@ nav .navbar-nav li a{
 	top:-18;
 }
 .comilla-izquierda img{
-	width:42%;
+	width:33%;
 }
 .comilla-derecha {
 	padding-top: 42px;
@@ -284,9 +293,13 @@ nav .navbar-nav li a{
   position: relative;
 }
 .comilla-derecha img {
-	width:42%;
+	width:33%;
+	margin-top:42px;
 }
 /*pilares*/
+.row.pilares{
+	margin-top:60px;
+}
 .circulo-externo{
 	background-color:#FF6A49;
 	width: 400px;
@@ -335,8 +348,8 @@ nav .navbar-nav li a{
 .pilares{
 	padding-top:5%;
 }
-.pilar-1{
-	margin-top:35px;
+.col-sm-3.pilar-1{
+	margin-top:40px;
 }
 .pilar-1 h3,
 .pilar-2 h3{
@@ -350,7 +363,9 @@ nav .navbar-nav li a{
   font-size: 22px;
   line-height: 23px;
 }
-
+.pilar-2{
+	  padding: 0px 68px;
+}
 
 .line-pilar-vertical{
 	border-top: 3px dashed #FF6A49;
@@ -397,7 +412,7 @@ nav .navbar-nav li a{
 
 .boton-metodlogia{
   @include button-vol(#58C6E7 , #fff, #fff);
-  	width: 62%;
+  	width: 75%;
   	position: relative;
   	border:2px solid #42bee4;
 }
@@ -406,7 +421,7 @@ nav .navbar-nav li a{
   @include button-vol(#2bb7e1 , #fff, #fff);
   	width: 22%;
   	position: relative;
-  	top: 60px;
+  	top: 275px;
   	border:2px solid white;
 }
 
@@ -450,9 +465,10 @@ nav .navbar-nav li a{
 .farolito-postulantes{
 	background-image: url(../img/img-02.png);
 	display: table;
-	height: 990px;
+	// height: 990px;
 	width: 100%;
 	background-size: cover;
+	padding-bottom:320px;
 		h2{
 		color: white;
 	  padding-top: 62px;
@@ -470,8 +486,8 @@ nav .navbar-nav li a{
 		}
 }
 .number-one-postulantes img{
-	width:28%;
-  left: 78px;
+  width:22%;
+  left: 88px;
   position: relative;
   top: 12px;
 
@@ -482,7 +498,8 @@ nav .navbar-nav li a{
 }
 
 .img-postulantes img{
-	width:82%;
+	width:70%;
+	// position:relative;
 }
 .line-postulante-horizontal-1{
 	border:1px dashed white;
@@ -497,16 +514,43 @@ nav .navbar-nav li a{
 	width:24%;
 	position:relative;
 	left:234px;
-	top:80px;
+	top:198px;
 }
 
-.line-postulante-vertical{
+.line-postulante-horizontal-3{
 	border:1px dashed white;
-	width:70%;
-  left: 24px;
+	width:24.3%;
+	position:relative;
+	left:234px;
+	top:308px;
+}
+
+.line-postulante-vertical-1{
+	border:1px dashed white;
+	width:60%;
+  left: 38px;
   position: relative;
-  top: 54px;
+  top: 56px;
 	-webkit-transform: rotate(90deg);
+	z-index:10;
+}
+.line-postulante-vertical-2{
+	border:1px dashed white;
+	width:60%;
+  left: 38px;
+  position: relative;
+  top: 164px;
+	-webkit-transform: rotate(90deg);
+	z-index:10;
+}
+.line-postulante-vertical-3{
+	border:1px dashed white;
+	width:60%;
+  left: 38px;
+  position: relative;
+  top: 268px;
+	-webkit-transform: rotate(90deg);
+	z-index:10;
 }
 .text-left{
 	padding-top:13px;
@@ -524,41 +568,53 @@ nav .navbar-nav li a{
 	img{
 		border-radius: 50%;
 		width: 5%;
+	  top: 228px;
+  	position: relative
 	}
 }
 .number-two-postulantes img{
-	width:28%;
+  width:22%;
   position: relative;
-  left: 78px;
-  top: -60px;
+  left: 88px;
+  top: 68px;
 }
 
 
 .oportunidad-postulante-2 h4{
-  top: -90px;
+  top: 56px;
   position: relative;
-  left: 30px;
+  left: 49px;
   color:white;
   font-size:34px;
 }
 
 .oportunidad-postulante-3 h4{
-  top: -58px;
+  top: 204px;
   position: relative;
-  left: 30px;
+  left: 49px;
   color:white;
 	font-size:34px;
 }
 .number-tree-postulantes img{
-	width:28%;
+  width:22%;
   position: relative;
-  left: 78px;
-  top: -32px;
+  left: 88px;
+  top: 210px;
 }
 .boton-naranja:hover{
 	border:2px solid rgb(27, 138, 138);
 	transition: 0.5s ease-in-out;
 
+}
+.img-postulantes-2 img{
+	width:70%;
+	position:relative;
+	top:	112px;
+}
+.img-postulantes-3 img{
+	width: 70%;
+	position: relative;
+  top: 218px;
 }
 // termino de farolito postulantes
 
