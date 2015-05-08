@@ -1,0 +1,166 @@
+/*comienza blog*/
+html, head, body{
+	width: 100%;
+	/*height: 100%;*/
+	font-family: 'Lato', sans-serif;
+}
+.row {
+	margin: 0px;
+	padding: 0px;
+}
+[class*="col-"] {
+
+	padding: 0px;
+	margin: 0px;
+}
+
+.navbar-form {
+   margin-left: 0px; 
+   margin-right: 0px; 
+
+}
+.icono-logo-blog img{
+	float: left;
+	padding: 5px 0 0 56px;
+}
+
+.nav-style{
+	background-color:rgb(237, 250, 252);
+}
+
+.boton-salir{
+	border-radius: 11px;
+	width: 110px;
+	color: white;
+	background-color: gray;
+	border-bottom:transparent;
+}
+
+.logo-name.clearfix{
+	line-height: 1px;
+	padding-bottom: 20px;
+}
+.logo-name h4{
+	color:#11CAE9;
+	font-size: 24px;
+}
+.logo-name span{
+	color: gray;
+	font-size: 18px;
+}
+.logo-name img{
+	float: left;
+	width: 12.5%;
+}
+
+h3.blog-name {
+  color:#11CAE9;
+    font-size: 35px;
+}
+.farolito-blogger{
+	color:rgb(160, 159, 159);
+}
+
+.farolito-blogger p{
+	font-size: 17px;
+	line-height: 28px;
+	margin-bottom: 22px;
+	color:#AEAEAE;
+}
+
+.img-blog{
+	padding-bottom: 20px;
+	width: 100%;
+}
+.footer{
+	position: relative;	
+	background-color: gray;
+	height: 56px;
+	margin-top: 0px;
+}
+.footer-logo img{
+	border-radius: 50%;
+  	border: 2px solid white;
+
+}
+.footer-logo {
+	  padding-left: 50px;
+	    position: absolute;
+	    margin-top: -15px;
+}
+.footer-drchs-reservados{
+	color: white;
+}
+.list-blog{
+	background-color: #F1F1F1;
+	width: 54%;
+	margin: 0 auto;
+	color: rgb(160, 159, 159);
+}
+
+.list-blog ul {
+	list-style: none;
+	padding: 0px;
+}
+
+.list-blog li {
+  border-bottom: 1px solid rgb(160, 159, 159);
+  width: 126px;
+} 
+.list-blog ul {
+	padding: 20px;
+}
+
+.articulos{
+	color:orange;
+}
+.articulos h5{
+	padding-left: 73px;
+}
+
+.list-blog p {
+
+	 padding: 34px 24px;
+}
+.ultimos-articulos h5{
+	padding-left: 73px;
+	margin-top: 50px;
+	color:orange;
+	margin-bottom: 0px;
+}
+.logo-ultimos-articulos img{
+	width: 18%;
+	position: relative;
+	top: 28px;
+}
+
+.list-blog:hover{
+	
+	background-color:#ffd13f;
+	transition: 0.8s ease-in-out;
+
+}
+
+.list-blog a li:hover{
+	text-decoration: none;
+	color:white;
+
+}
+.list-blog p:hover{
+	color:white;
+}
+
+.blogger-content li{
+	padding-top: 20px;
+  padding-bottom: 20px;
+  list-style: none;
+  /*padding-left: 20px;*/
+}
+
+.img-blogr img{
+	width: 80%;
+}
+input[type="text"]{
+	/*margin-left: 20px;*/
+}
+/*Termina blog*/
