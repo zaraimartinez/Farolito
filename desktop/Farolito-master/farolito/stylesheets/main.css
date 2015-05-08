@@ -5522,6 +5522,9 @@ button.close {
 /*========================================
 =             APP CUSTOM                 =
 ========================================*/
+html, head, body {
+  width: 100%; }
+
 @font-face {
   font-family: NeutraTextlight;
   src: url(../Fuente/TitularesNeutratext/NeutraTextlight.otf); }
@@ -5534,13 +5537,6 @@ button.close {
 @font-face {
   font-family: NeutraTextlightt;
   src: url(../Fuente/TitularesNeutratext/NeutraTextlightt.otf); }
-html, head, body {
-  width: 100%; }
-
-body > .container-fluid {
-  padding: 0px;
-  margin: 0px; }
-
 h1, nav, .boton-perfil, p {
   font-family: "MuseoSans", sans-serif; }
 
@@ -5553,6 +5549,96 @@ span, p, h5, li input {
 h4 {
   font-family: "NeutraTextlight", sans-serif; }
 
+.boton-perfil {
+  background-color: #F7714F;
+  color: #fff;
+  width: 65%;
+  margin: 0 auto;
+  border: #FF6A49;
+  border-radius: 14px;
+  font-size: 18px;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  margin-top: 50px;
+  text-decoration: none;
+  width: 37%;
+  display: inline-block;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: 20px;
+  font-weight: bold; }
+
+.boton-metodologia {
+  background-color: #58C6E7;
+  color: #fff;
+  width: 65%;
+  margin: 0 auto;
+  border: #fff;
+  border-radius: 14px;
+  font-size: 18px;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  margin-top: 50px;
+  width: 75%;
+  position: relative;
+  border: 2px solid #42bee4;
+  font-weight: bold; }
+
+.boton-postulantes {
+  background-color: #2bb7e1;
+  color: #fff;
+  width: 65%;
+  margin: 0 auto;
+  border: #fff;
+  border-radius: 14px;
+  font-size: 18px;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  margin-top: 50px;
+  width: 22%;
+  position: relative;
+  top: 275px;
+  border: 2px solid white; }
+
+.boton-empresas {
+  background-color: #F7714F;
+  color: #fff;
+  width: 65%;
+  margin: 0 auto;
+  border: #fff;
+  border-radius: 14px;
+  font-size: 18px;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  margin-top: 50px;
+  padding-left: 55px;
+  padding-right: 55px;
+  top: 60px;
+  border: 2px solid #FF6A49;
+  text-decoration: none; }
+
+.boton-educativos {
+  background-color: #77d248;
+  color: #fff;
+  width: 65%;
+  margin: 0 auto;
+  border: #fff;
+  border-radius: 14px;
+  font-size: 18px;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  margin-top: 50px;
+  text-decoration: none;
+  border: 2px solid white;
+  padding-left: 55px;
+  padding-right: 55px;
+  margin: 12px 0px 80px;
+  font-weight: bold; }
+
+body > .container-fluid {
+  padding: 0px;
+  margin: 0px; }
+
 .col-md-1-5 {
   position: relative;
   min-height: 1px;
@@ -5562,10 +5648,6 @@ h4 {
     .col-md-1-5 {
       float: left;
       width: 12.5%; } }
-
-.row {
-  margin: 0px;
-  padding: 0px; }
 
 .navbar {
   background-color: transparent;
@@ -5593,17 +5675,11 @@ select {
   margin-top: 7px;
   visibility: hidden; }
 
-.boton-perfil {
-  visibility: visible; }
-
 .logo-nav.scroll {
   visibility: visible; }
 
 .nav-home {
   margin: 0px; }
-
-.navbar-default .navbar-nav > li > a {
-  color: #ABAAAA; }
 
 nav .navbar-nav li a {
   font-size: 20px; }
@@ -5626,7 +5702,8 @@ nav .navbar-nav li a {
     padding: 10px; }
   .navbar-default .navbar-nav > li > a {
     padding-top: 0px;
-    padding-bottom: 0px; }
+    padding-bottom: 0px;
+    color: #ABAAAA; }
   .navbar-default .container-fluid > .navbar-header {
     margin-right: 0px;
     margin-left: 0px; }
@@ -5640,47 +5717,32 @@ nav .navbar-nav li a {
     color: white;
     padding: 4px 16px; }
 
+.boton-perfil {
+  visibility: visible; }
+
 /*fin de menu*/
 .homepage {
   background-image: url(../img/img-home.png);
   display: table;
   height: 643px;
-  /*width: 100%;*/
+  width: 100%;
   background-size: cover; }
-
-.logo img {
-  width: 33%;
-  padding-top: 64px;
-  padding-bottom: 30px; }
-
-.inicio-home {
-  padding-left: 84px;
-  padding-right: 84px; }
-
-.lema h1 {
-  letter-spacing: 1px;
-  font-size: 24px;
-  color: #58C6E7; }
-
-.descripcion p {
-  font-size: 18px;
-  color: #9E9D9D;
-  margin-top: 21px;
-  margin-bottom: 11px;
-  line-height: 1.4; }
-
-.boton-perfil {
-  padding: 10px 46px;
-  text-decoration: none;
-  border: 1px solid #FF6A49;
-  border-radius: 15px;
-  background-color: #F7714F;
-  color: white;
-  display: inline-block;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  margin-top: 20px;
-  font-weight: bold; }
+  .homepage .logo img {
+    width: 33%;
+    padding-top: 64px;
+    padding-bottom: 30px; }
+  .homepage .inicio-home {
+    padding-left: 84px;
+    padding-right: 84px; }
+  .homepage .lema h1 {
+    letter-spacing: 1px;
+    font-size: 24px;
+    color: #58C6E7; }
+  .homepage .descripcion p {
+    font-size: 19px;
+    color: #9E9D9D;
+    padding: 18px 13px;
+    line-height: 1.4; }
 
 .boton-perfil:hover {
   color: #fff;
@@ -5691,247 +5753,136 @@ nav .navbar-nav li a {
 
 .arrow-homepage {
   position: relative;
-  top: 152px;
+  top: 87px;
   margin: 0 auto; }
   .arrow-homepage img {
     transition: 0.8s ease-in-out;
     border-radius: 50%;
     width: 5%;
-    top: -6px;
     position: relative; }
 
-/*metodologia*/
-.hover-metodologia img {
-  position: absolute;
-  top: 196px;
-  right: 143px;
-  width: 44%; }
-
-.hover-metodologia h2 {
-  color: gray; }
+/*METODOLOGIA*/
+.metodologia .subtitulos {
+  color: #4ABAE1;
+  font-size: 40px;
+  margin-bottom: 73px;
+  margin-top: 7.5%; }
+.metodologia .subtitulo-comillas .comilla-izquierda {
+  left: 297px;
+  top: -18; }
+  .metodologia .subtitulo-comillas .comilla-izquierda img {
+    width: 33%; }
+.metodologia .subtitulo-comillas .comilla-derecha {
+  padding-top: 42px;
+  right: 200px;
+  position: relative; }
+  .metodologia .subtitulo-comillas .comilla-derecha img {
+    width: 33%; }
+.metodologia .metodo-intro {
+  line-height: 12px; }
+  .metodologia .metodo-intro p {
+    color: #f76949;
+    font-size: 32px;
+    font-weight: bold; }
+  .metodologia .metodo-intro h5 {
+    color: #797878;
+    font-size: 32px;
+    font-weight: bold; }
+.metodologia .pilares {
+  padding-top: 5%; }
+  .metodologia .pilares .circulo-externo {
+    background-color: #FF6A49;
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    padding: 0.6rem;
+    margin: 0 auto;
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out; }
+  .metodologia .pilares .circulo-externo:hover {
+    background-color: white; }
+  .metodologia .pilares .circulo-interno {
+    border-radius: 50%;
+    border: dashed 3px white;
+    width: 385px;
+    height: 385px;
+    padding: 3rem;
+    margin: 0 auto;
+    padding-top: 52px; }
+    .metodologia .pilares .circulo-interno p {
+      color: white;
+      padding: 26px 10px;
+      font-size: 24px; }
+    .metodologia .pilares .circulo-interno .circulo-p p {
+      color: white;
+      font-size: 22px;
+      padding: 0px;
+      font-size: 24px; }
+  .metodologia .pilares .circulo-interno:hover {
+    border: dashed 3px #FF6A49; }
+  .metodologia .pilares .boton-metodologia:hover {
+    background-color: #42bee4;
+    transition: 0.5s ease-in-out; }
+  .metodologia .pilares .hover-metodologia h2 {
+    color: gray; }
+  .metodologia .pilares .hover-metodologia img {
+    position: absolute;
+    top: 196px;
+    right: 143px;
+    width: 44%; }
+  .metodologia .pilares .line-pilar-vertical {
+    border-top: 3px dashed #FF6A49;
+    width: 25%;
+    margin: 0 auto;
+    margin-top: 48px;
+    transform: rotate(90deg);
+    margin-bottom: 81px; }
+  .metodologia .pilares .line-izquierda {
+    width: 156px;
+    height: 130px;
+    border-bottom: 3px dashed #FF6A49;
+    transform: rotate(-15deg);
+    left: 153px;
+    position: relative; }
+  .metodologia .pilares .line-derecha {
+    width: 156px;
+    height: 164px;
+    border-bottom: 3px dashed #FF6A49;
+    transform: rotate(374deg);
+    left: -12px;
+    position: relative; }
+  .metodologia .pilares .pilar-1 {
+    margin-top: 40px; }
+  .metodologia .pilares .pilar-2 {
+    padding: 0px 68px; }
+  .metodologia .pilares .pilar-1 span, .metodologia .pilares .pilar-2 span, .metodologia .pilares .pilar-3 span {
+    color: #b0aeae;
+    font-size: 22px;
+    line-height: 23px; }
+  .metodologia .pilares .pilar-1 h3, .metodologia .pilares .pilar-2 h3, .metodologia .pilares .pilar-3 h3 {
+    color: #f76949;
+    font-size: 28px; }
+.metodologia .arrow-homepage-metodolo {
+  position: relative;
+  top: 30px;
+  margin: 0 auto; }
+  .metodologia .arrow-homepage-metodolo img {
+    border-radius: 50%;
+    width: 5%; }
 
 .line-metodo {
   border: 1px dashed #f76949;
   width: 70%;
   margin: 0 auto; }
 
-.subtitulos {
-  color: #4ABAE1;
-  font-size: 40px;
-  margin-bottom: 73px;
-  margin-top: 7.5%; }
-
-.metodologia p {
-  color: #f76949;
-  font-size: 32px;
-  font-weight: bold; }
-
-.metodologia h5 {
-  color: #797878;
-  font-size: 32px;
-  font-weight: bold; }
-
-.metodo-intro {
-  line-height: 12px; }
-
-.comilla-izquierda {
-  left: 297px;
-  top: -18; }
-
-.comilla-izquierda img {
-  width: 33%; }
-
-.comilla-derecha {
-  padding-top: 42px;
-  right: 200px;
-  position: relative; }
-
-.comilla-derecha img {
-  width: 33%;
-  margin-top: 42px; }
-
-/*pilares*/
-.row.pilares {
-  margin-top: 60px; }
-
-.circulo-externo {
-  background-color: #FF6A49;
-  width: 400px;
-  height: 400px;
-  border-radius: 50%;
-  padding: 0.6rem;
-  margin: 0 auto;
-  -webkit-transition: all 0.4s ease-in-out;
-  -moz-transition: all 0.4s ease-in-out;
-  -o-transition: all 0.4s ease-in-out;
-  -ms-transition: all 0.4s ease-in-out; }
-
-.circulo-externo:hover {
-  background-color: white; }
-
-.circulo-interno {
-  border-radius: 50%;
-  border: dashed 3px white;
-  width: 385px;
-  height: 385px;
-  padding: 3rem;
-  margin: 0 auto;
-  padding-top: 52px;
-  /*-webkit-transform: scale(0.8);*/ }
-
-.circulo-interno:hover {
-  border: dashed 3px #FF6A49; }
-
-.circulo-interno p {
-  color: white;
-  padding: 26px 10px;
-  font-size: 24px; }
-
-.circulo-p p {
-  color: white;
-  font-size: 22px;
-  padding: 0px;
-  font-size: 24px; }
-
-.pilares {
-  padding-top: 5%; }
-
-.col-sm-3.pilar-1 {
-  margin-top: 40px; }
-
-.pilar-1 h3,
-.pilar-2 h3 {
-  color: #f76949;
-  font-size: 28px; }
-
-.pilar-1 span,
-.pilar-2 span {
-  color: #b0aeae;
-  font-size: 22px;
-  line-height: 23px; }
-
-.pilar-2 {
-  padding: 0px 68px; }
-
-.line-pilar-vertical {
-  border-top: 3px dashed #FF6A49;
-  width: 25%;
-  margin: 0 auto;
-  margin-top: 48px;
-  transform: rotate(90deg);
-  margin-bottom: 81px; }
-
-.pilar-3 h3 {
-  color: #f76949;
-  padding-left: 7px;
-  font-size: 28px; }
-
-.pilar-3 {
-  color: #b0aeae; }
-  .pilar-3 span {
-    font-size: 22px;
-    line-height: 23px; }
-
-.line-izquierda {
-  width: 156px;
-  height: 130px;
-  border-bottom: 3px dashed #FF6A49;
-  transform: rotate(-15deg);
-  left: 153px;
-  position: relative; }
-
-.line-derecha {
-  width: 156px;
-  height: 164px;
-  border-bottom: 3px dashed #FF6A49;
-  transform: rotate(374deg);
-  left: -12px;
-  position: relative; }
-
-.boton-metodlogia:hover {
-  background-color: #42bee4;
-  transition: 0.5s ease-in-out; }
-
-.boton-metodlogia {
-  background-color: #58C6E7;
-  color: #fff;
-  width: 65%;
-  margin: 0 auto;
-  border: #fff;
-  border-radius: 19px;
-  font-size: 19px;
-  padding-top: 15px;
-  padding-bottom: 15px;
-  margin-top: 50px;
-  width: 75%;
-  position: relative;
-  border: 2px solid #42bee4; }
-
-.boton-naranja {
-  background-color: #2bb7e1;
-  color: #fff;
-  width: 65%;
-  margin: 0 auto;
-  border: #fff;
-  border-radius: 19px;
-  font-size: 19px;
-  padding-top: 15px;
-  padding-bottom: 15px;
-  margin-top: 50px;
-  width: 22%;
-  position: relative;
-  top: 275px;
-  border: 2px solid white; }
-
-.btn3 {
-  background-color: #F7714F;
-  color: #fff;
-  width: 65%;
-  margin: 0 auto;
-  border: #fff;
-  border-radius: 19px;
-  font-size: 19px;
-  padding-top: 15px;
-  padding-bottom: 15px;
-  margin-top: 50px;
-  padding-left: 55px;
-  padding-right: 55px;
-  top: 60px;
-  border: 2px solid #FF6A49;
-  text-decoration: none; }
-
-.btn4 {
-  background-color: #77d248;
-  color: #fff;
-  width: 65%;
-  margin: 0 auto;
-  border: #fff;
-  border-radius: 19px;
-  font-size: 19px;
-  padding-top: 15px;
-  padding-bottom: 15px;
-  margin-top: 50px;
-  text-decoration: none;
-  border: 2px solid white;
-  padding-left: 55px;
-  padding-right: 55px;
-  margin: 12px 0px 80px;
-  font-weight: bold; }
-
-.arrow-homepage-metodolo {
-  position: relative;
-  top: 30px;
-  margin: 0 auto; }
-  .arrow-homepage-metodolo img {
-    border-radius: 50%;
-    width: 5%; }
-
 /*Fin de metodolog├¡a*/
 /*farolito.postulantes*/
 .postulante-perfil {
   padding-bottom: 100px; }
 
-.oportunidad-perfil {
+#postulantes .oportunidad-perfil {
   padding-bottom: 100px; }
 
 .farolito-postulantes {
@@ -6058,14 +6009,14 @@ nav .navbar-nav li a {
   left: 88px;
   top: 210px; }
 
-.boton-naranja:hover {
+.boton-postulantes:hover {
   border: 2px solid #1b8a8a;
   transition: 0.5s ease-in-out; }
 
 .img-postulantes-2 img {
   width: 70%;
   position: relative;
-  top: 112px; }
+  top: 120px; }
 
 .img-postulantes-3 img {
   width: 70%;
@@ -6114,7 +6065,7 @@ nav .navbar-nav li a {
   font-size: 20px;
   font-weight: bold; }
 
-.btn3:hover {
+.boton-empresas:hover {
   color: #fff;
   background-color: #ff4016;
   border-color: #f12c00;
@@ -6173,7 +6124,7 @@ nav .navbar-nav li a {
   font-size: 20px;
   font-weight: bold; }
 
-.btn4:hover {
+.boton-educativos:hover {
   color: #77d248;
   background-color: white;
   border-color: white;
@@ -6468,10 +6419,10 @@ a.boton-correo {
   width: 65%;
   margin: 0 auto;
   border: red;
-  border-radius: 19px;
-  font-size: 19px;
-  padding-top: 15px;
-  padding-bottom: 15px;
+  border-radius: 14px;
+  font-size: 18px;
+  padding-top: 14px;
+  padding-bottom: 14px;
   margin-top: 50px; }
 
 .modal-content {
@@ -6614,11 +6565,8 @@ button.botonpop.btn-default.boton-home {
     left: 0px;
     top: -5px; }
 
-  .parrafo-2 {
-    top: -102px; }
-
-  .col-sm-4.parrafo-2.text-left {
-    margin-top: 120px; }
+  .parrafo-2 span {
+    margin-top: 5%; }
 
   .oportunidad-postulante-2 h4 {
     left: 0px;

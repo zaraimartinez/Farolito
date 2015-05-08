@@ -1,0 +1,12 @@
+CMS:Sistema de Gestión de contenido
+
+codex.wordpress.org themplates
+
+wordprees :almacena informacion-contenidos.
+plantilla
+
+http://themeforest.net/
+
+('showposts=5'):argumeto
+Query string:hace referencia a una interaccion con una base de datos
+( $query->have_posts() ):loops
